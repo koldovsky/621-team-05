@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik:wght@300&display=swap');
-
 .orange-p {
 	font-family: 'Great Vibes', undefined;
 	font-size: 28px;
@@ -10,7 +11,7 @@
 	color: rgb(200, 105, 58);
 }
 .white-p {
-	font-family: Rubik, sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 18px;
 	line-height: 30.6px;
 	font-weight: 400;
@@ -80,7 +81,7 @@ body {
 }
 
 .boutique-wines{
-    background-image: url(image/bg-boutique-wine.jpg);
+    background-image: url(/image/bg-boutique-wine.jpg);
     padding: 200px 20px 200px 40%;
 }
 
@@ -101,14 +102,14 @@ body {
 }
 
 .wine-article--special{
-    background-image: url(image/special-events.jpg);
+    background-image: url(/image/special-events.jpg);
     
 }
 .wine-article--oragic{
-    background-image: url(image/organic-wine.jpg);
+    background-image: url(/image/organic-wine.jpg);
 }
 .wine-article--grape{
-    background-image: url(image/grape-varieties.jpg);
+    background-image: url(/image/grape-varieties.jpg);
 }
 
 .orange-line{
@@ -118,3 +119,26 @@ body {
 .grey-p {
     color: gray;
 }
+.red-wine-form {
+    background-image: url(/image/glasses.jpg);
+    background-size: cover;
+    width: 80%;
+    margin: 20px 0 0;
+    padding: 373px 0px 0px;
+    }
+
+    .white-wine-form {
+    background-image: url(/image/glaschesse.jpg);
+    background-size: cover;
+    width: 80%;
+    margin: 20px 0 0;
+    padding: 373px 0px 0px;
+    }
+    .personal-discount {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .discount-form
+    {
+        background-image: url(/image/village.png);
+    }
