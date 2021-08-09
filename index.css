@@ -17,7 +17,7 @@ header {
     padding: 20px 30px;
 }
 
-.header_right {
+.header-right {
     display: flex;
 }
       
@@ -26,32 +26,36 @@ header {
     align-items: center;
 }
 
-.menu_list {
+.menu-list {
     display: flex;
     list-style-type: none;
 }
 
-.menu_list li {
+.menu-list li {
     margin-right: 20px;
 }
 
-.menu_list a {
+.menu-list a {
     text-decoration: none;
     color: white;
 }
 
-.social_icons_list {
+.social-icons-list {
     display: flex;
     list-style-type: none;
 }
 
-.social_icons_list li {
+.social-icons-list li {
     margin-left: 20px;
 }
 
-.social_icons_list a {
+.social-icons-list a {
     width: 26px;
     height: 26px;
     display: block;
     border: 2px solid #c8693a;
+}
+body {
+    background-color: black;
+    color: white;
 }
