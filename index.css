@@ -33,6 +33,7 @@ header {
 
 .menu-list li {
     margin-right: 20px;
+    font-family: ;
 }
 
 .menu-list a {
@@ -58,4 +59,49 @@ header {
 body {
     background-color: black;
     color: white;
+}
+
+.boutique-wines{
+    background-image: url(image/bg-boutique-wine.jpg);
+    padding: 200px 20px 200px 40%;
+}
+
+.boutique-wines h1 {
+    font-size: 84px;
+}
+
+.orange-p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    color: #c8693a ;
+}
+.articles-wrapper {
+   display: flex; 
+   justify-content: space-between;
+   padding: 120px 0px 60px;
+}
+.wine-article {
+    background-size: cover;
+    width: 30%;
+    margin: 30px 0  0;
+    padding: 300px 15px 15px
+}
+
+.wine-article--special{
+    background-image: url(image/special-events.jpg);
+    
+}
+.wine-article--oragic{
+    background-image: url(image/organic-wine.jpg);
+}
+.wine-article--grape{
+    background-image: url(image/grape-varieties.jpg);
+}
+
+.orange-line{
+    color: #c8693a ;
+}
+
+.grey-p {
+    color: gray;
 }
