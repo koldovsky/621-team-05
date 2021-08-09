@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik:wght@300&display=swap');
 
+.orange-p {
+	font-family: 'Great Vibes', undefined;
+	font-size: 28px;
+	line-height: 39.2px;
+	font-weight: 400;
+	text-transform: none;
+	letter-spacing: normal;
+	color: rgb(200, 105, 58);
+}
+.white-p {
+	font-family: Rubik, sans-serif;
+	font-size: 18px;
+	line-height: 30.6px;
+	font-weight: 400;
+	text-transform: none;
+	letter-spacing: normal;
+	color: #fff;
+}
 
 
 .orange-divider {
@@ -70,11 +88,6 @@ body {
     font-size: 84px;
 }
 
-.orange-p {
-    font-family: 'Great Vibes', cursive;
-    font-size: 28px;
-    color: #c8693a ;
-}
 .articles-wrapper {
    display: flex; 
    justify-content: space-between;
