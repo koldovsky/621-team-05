@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik:wght@300&display=swap');
 
 .personal-discount {
     
@@ -15,17 +18,69 @@
     background-size: cover;
     min-height: 400px;
     padding: 20px;
-    ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
 }
-
+    .red-wine > h3 {
+font-family: 'Prata' serif;
+font-size: 36px;
+color: white;
+    }
+.white-wine > h3 {
+    font-family: 'Prata' serif;
+    font-size: 36px;
+    color: white;
+        }
+        .horizontal-line {
+            width: 8%;
+            background-color: #c8693a;
+            height: 2px;
+        }
     .white-wine {
     background-image: url(../image/glaschesse.jpg);
     background-size: cover;
     min-height: 400px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
 }
-    
-    .discount-form
-    {
-        background-image: url(../image/village.png);
+    .red-wine > p {
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-weight: bold;
     }
+    .white-wine > p {
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-weight: bold;
+    }
+    .buttom-wine-block {
+        padding:  16px 25px;
+        border: 0px solid white;
+        margin: 0 430px 0 0;
+        border-radius: 2px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        background-color:#c8693a;
+        font-weight: bold;
+        font-family: 'Rubik', sans-serif;
+    }
+    .buttom-wine-block:hover {
+        background-color: #af572b;
+    cursor: pointer;
+    }
+    .discount {
+
+    padding: 50px;
+    }
+    .awards-block {
+        padding: 50px;
+    }
+   .discount-block {
+       background: #c8693a;
+       float: right;
+
+   }
