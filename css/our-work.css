@@ -168,3 +168,28 @@ body {
 .grey-p {
     color: gray;
 }
+
+.every-table-h2{
+    font-size: 41px;
+    text-align: center;
+}
+.block-text{
+    text-align: center;
+    font-size: 18px;
+}
+.title-number{
+    color: #c8693a;
+    font-size: 14px;
+    font-family: Rubik ,sana-serif;
+    text-align: center;
+}
+.traditional-wine-h2{
+    font-size: 37px;
+    text-align: center;
+}
+.vino-veritas-h2{
+    font-size: 58px;
+    font-family: Prata ,serif;
+    text-align: left ;
+    
+}
