@@ -1,31 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Prata&family=Rubik:wght@300&display=swap');
-.orange-p {
-	font-family: 'Great Vibes', undefined;
-	font-size: 28px;
-	line-height: 39.2px;
-	font-weight: 400;
-	text-transform: none;
-	letter-spacing: normal;
-	color: rgb(200, 105, 58);
-}
-.white-p {
-	font-family: 'Rubik', sans-serif;
-	font-size: 18px;
-	line-height: 30.6px;
-	font-weight: 400;
-	text-transform: none;
-	letter-spacing: normal;
-	color: #fff;
-}
 
-
-.orange-divider {
-    width: 5%;
-    height: 2px;
-    background-color: #c8693a; 
-}
 
 header {
     background-color: rgb(104, 99, 99); 
@@ -75,19 +51,93 @@ header {
     display: block;
     border: 2px solid #c8693a;
 }
+.orange-p {
+	font-family: 'Great Vibes', undefined;
+	font-size: 28px;
+	line-height: 39.2px;
+	font-weight: 400;
+	text-transform: none;
+	letter-spacing: normal;
+	color: rgb(200, 105, 58);
+}
+.white-p {
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	line-height: 30.6px;
+	font-weight: 400;
+	text-transform: none;
+	letter-spacing: normal;
+	color: #fff;
+}
+
+.orange-divider {
+    width: 5%;
+    height: 2px;
+    background-color: #c8693a; 
+}
 body {
     background-color: #261e1c;
-    color: white;
+
 }
 
 .boutique-wines{
     background-image: url(/image/bg-boutique-wine.jpg);
-    padding: 200px 20px 200px 40%;
+    padding: 200px 20px 200px 44%;
+    color:white;
+    background-position: center;
+        
 }
 
 .boutique-wines h1 {
     font-size: 84px;
+    line-height: 1.2;
+    font-family: Prata,serif;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
 }
+
+.button-wrapper{
+    margin: 10px 0;
+}
+
+.default-button {
+    display: inline-block;
+    font-family:'Rubic',sans-serif;
+    padding: 18px 26px;
+    border-radius: 2px;
+    font-size: 16.5px;
+    line-height: 1em;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    font-weight: bold;
+}
+
+.shop-now {
+    background-color:#c8693a;
+    color: white;
+    border: 0.1em solid #c8693a;
+  }
+
+  .shop-now:hover {
+    background-color:#a55731;
+    border-color: #a55731 ;
+  }
+
+  .learn-more {
+    background-color: transparent;
+    color: white;
+    border: 0.1em solid white;
+  }
+
+  .learn-more:hover {
+    background-color: white;
+    color: black;
+  }
 
 .articles-wrapper {
    display: flex; 
