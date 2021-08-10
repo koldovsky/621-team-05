@@ -119,26 +119,3 @@ body {
 .grey-p {
     color: gray;
 }
-.red-wine-form {
-    background-image: url(/image/glasses.jpg);
-    background-size: cover;
-    width: 80%;
-    margin: 20px 0 0;
-    padding: 373px 0px 0px;
-    }
-
-    .white-wine-form {
-    background-image: url(/image/glaschesse.jpg);
-    background-size: cover;
-    width: 80%;
-    margin: 20px 0 0;
-    padding: 373px 0px 0px;
-    }
-    .personal-discount {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .discount-form
-    {
-        background-image: url(/image/village.png);
-    }
