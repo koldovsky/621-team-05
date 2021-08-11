@@ -62,6 +62,14 @@ header {
     font-family: 'Prata', sans-serif;
     color: #fff; 
 }
+
+
+.special {
+    color: #fff;
+    font-family: 'Prata';
+
+}
+
 .orange-p {
 	font-family: 'Great Vibes', undefined;
 	font-size: 28px;
