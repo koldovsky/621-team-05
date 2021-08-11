@@ -8,8 +8,11 @@
 }
 
 header {
-    background-color: rgb(104, 99, 99); 
-    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, .5); 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,6 +92,7 @@ header {
 
 body {
     background-color: #261e1c;
+    margin: 0;
 
 }
 .orange-divider {
@@ -155,6 +159,17 @@ body {
     color: black;
   }
 
+.more-arrow {
+    display: flex;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.more-arrow img {
+    margin-left: 5px;
+}
+
 .articles-wrapper {
    display: flex; 
    justify-content: space-between;
@@ -170,8 +185,9 @@ body {
 .wine-article--special{
     background-image: url(/image/special-events.jpg);
     
+    
 }
-.wine-article--oragic{
+.wine-article--oraganic{
     background-image: url(/image/organic-wine.jpg);
 }
 .wine-article--grape{
