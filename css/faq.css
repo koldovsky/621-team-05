@@ -1,0 +1,29 @@
+.testimonials {
+	text-align: center;
+}
+
+section .faq {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 10px 15px 10px 15px;
+	min-width: 320px;	
+}
+summary .faq-question {
+    font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	line-height: 30.6px;
+	font-weight: 400;
+	text-transform: none;
+	letter-spacing: normal;
+	color: #fff;
+}
+
+@media (min-width: 750px) {
+	section .faq {
+		display: flex;
+		flex-direction: row;
+		
+	}
+}
