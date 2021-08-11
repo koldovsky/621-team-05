@@ -1,0 +1,18 @@
+.picture-loza {
+    max-width: 100%;
+    width: 200px;
+    margin: auto;
+    display: block;
+    align-items: baseline;
+}
+.white-p {
+    font-family: 'Rubik', sans-serif;
+    color: #fff; 
+    text-align: center;
+    font-size: 18px;
+}
+.nomination-block {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;   
+}

@@ -59,8 +59,10 @@ header {
 }
 
 .section-title {
-    font-family: 'Prata', sans-serif;
+    font-family: 'Prata', serif;
     color: #fff; 
+    text-align: center;
+    font-size: 41px;
 }
 .orange-p {
 	font-family: 'Great Vibes', undefined;
