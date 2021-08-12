@@ -63,7 +63,6 @@ header {
 .section-title {
     font-family: 'Prata', serif;
     color: #fff; 
-    text-align: center;
     font-size: 41px;
 }
 
@@ -71,6 +70,10 @@ header {
     color: #fff;
     font-family: 'Prata';
 
+}
+.container {
+max-width: 980px;
+margin: 0 auto;
 }
 
 .orange-p {
