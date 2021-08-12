@@ -15,6 +15,7 @@
 .nomination-block-detals {
     display: grid;
     grid-gap: 20px;
+<<<<<<< HEAD
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: left;
     padding: 80px 20px;
@@ -50,4 +51,10 @@ margin: 0px -100px 0px -100px;
 .details-blog {
     text-align: center;
     align-items: center;
+=======
+    grid-template-columns: 1fr 1fr 1fr 1fr;   
+}
+.every-table {
+    
+>>>>>>> f26c1bd9a39e6acaabf18cccd4ff3757bd67b6d2
 }
