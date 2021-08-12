@@ -1,7 +1,12 @@
 :root {
     font-family: 'Rubik', sans-serif;
    --accent-color:rgb(0, 0, 0, .5);
-   --orange: #c8693a;
+   --orange: rgb(200, 105, 58);
+   --white:#fff;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 header {
@@ -41,7 +46,7 @@ header {
 
 .menu-list a {
     text-decoration: none;
-    color: white;
+    color:var(--white);
 }
 
 .social-icons-list {
@@ -72,8 +77,8 @@ header {
 
 }
 .container {
-max-width: 980px;
-margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .orange-p {
@@ -83,7 +88,7 @@ margin: 0 auto;
 	font-weight: 400;
 	text-transform: none;
 	letter-spacing: normal;
-	color: rgb(200, 105, 58);
+	color: var(--orange);
 }
 .white-p {
 	font-family: 'Rubik', sans-serif;
@@ -92,7 +97,7 @@ margin: 0 auto;
 	font-weight: 400;
 	text-transform: none;
 	letter-spacing: normal;
-	color: #fff;
+	color:var(--white);
 }
 .grey-p {
     font-family: 'Rubik', sans-serif;
@@ -112,13 +117,13 @@ body {
 .orange-divider {
     width: 5%;
     height: 2px;
-    background-color: #c8693a; 
+    background-color:var(--orange) ;
 }
 
 .boutique-wines{
     background-image: url(/image/bg-boutique-wine.jpg);
     padding: 130px 24px;
-    color:white;
+    color:var(--white);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -168,9 +173,9 @@ body {
 }
 
 .shop-now {
-    background-color:#c8693a;
-    color: white;
-    border: 0.1em solid #c8693a;
+    background-color:var(--orange);
+    color: var(--white);
+    border: 0.1em solid var(--oorange);
   }
 
   .shop-now:hover {
@@ -180,18 +185,18 @@ body {
 
   .learn-more {
     background-color: transparent;
-    color: white;
-    border: 0.1em solid white;
+    color: var(--white);
+    border: 0.1em solid var(--white);
   }
 
   .learn-more:hover {
-    background-color: white;
+    background-color: var(--white);
     color: black;
   }
 
 .more-arrow {
     display: flex;
-    color: #fff;
+    color: var(--white);
     font-weight: 600;
     text-decoration: none;
 }
@@ -207,9 +212,9 @@ body {
 }
 .wine-article {
     background-size: cover;
-    width: 30%;
+    width: 31.5%;
     margin: 30px 0  0;
-    padding: 300px 15px 15px
+    padding: 300px 45px 45px;
 }
 
 .wine-article--special{
@@ -225,7 +230,7 @@ body {
 }
 
 .orange-line{
-    color: #c8693a ;
+    color: var(--orange) ;
 }
 
 .every-table-h2{
@@ -237,7 +242,7 @@ body {
     font-size: 18px;
 }
 .title-number{
-    color: #c8693a;
+    color: var(--orange);
     font-size: 14px;
     font-family: Rubik ,sana-serif;
     text-align: center;
