@@ -299,3 +299,22 @@ body {
     
 }
 
+section .testimonials {
+    text-align: center;
+    padding: 15px 5px 15px 5px;
+}
+@media (min-width: 600px) {
+	section .testimonials {
+        font-size: 22px;
+        padding: 15px 5px 30px 5px;
+	}
+.orange-p {
+	font-size: 28px;
+	}
+.section-title {
+	font-size: 48px;
+	}
+.grey-p {
+    font-size: 16px;
+    }
+}

@@ -1,29 +1,38 @@
-.testimonials {
-	text-align: center;
+.faq {
+	padding: 5px;
 }
 
-section .faq {
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	flex-direction: column;
-	margin: 10px 15px 10px 15px;
-	min-width: 320px;	
-}
-summary .faq-question {
-    font-family: 'Rubik', sans-serif;
+section .faq-question {
 	font-size: 18px;
 	line-height: 30.6px;
 	font-weight: 400;
 	text-transform: none;
 	letter-spacing: normal;
 	color: #fff;
+	text-align: left;
+	padding: 5px 10px 5px 10px;
+	margin: 10px;
 }
 
-@media (min-width: 750px) {
-	section .faq {
-		display: flex;
-		flex-direction: row;
-		
+section .red-wine-bottle {
+	width: 100%;
+	display: block;
+}
+
+@media (min-width: 600px) {
+	.faq {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+	}
+	.faq-question {
+	font-size: 22px;
+	}
+.orange-p {
+	font-size: 28px;
+	}
+.section-title{
+	font-size: 48px;
 	}
 }
+
