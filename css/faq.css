@@ -17,6 +17,7 @@ section .faq-question {
 section .red-wine-bottle {
 	width: 100%;
 	display: block;
+	min-height: 400px;
 }
 
 @media (min-width: 600px) {

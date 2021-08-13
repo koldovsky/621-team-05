@@ -1,14 +1,37 @@
-.footer-container {
+/* .footer-container {
 	width: 100%;
 	margin: 3.125em auto 0 auto;
-}
+} */
 
-.newsletter {
-	padding: 5px;
+footer .newsletter {
+	min-height: 400px;
+	margin: 10px;
+	padding: 90px 0px 15px 0px;
 }
+footer div .newsletter-title {
+	.orange-p {
+		font-family: 'Great Vibes', undefined;
+		font-size: 14px;
+		font-weight: 400px;
+		line-height: 19.6px;
+		}
+	h2 .newsletter-title {
+		font-family: 'Prata', serif;
+		font-size: 28px;
+		font-weight: 400px;
+		line-height: 36.5px;
+		color: #fff;
+		}
+	.white-p {
+		font-family: 'Rubik', sans-serif;
+		font-size: 16px;
+		font-weight: 400px;
+		line-height: 25.6px;
 
+	}
+}
 @media (min-width: 600px) {
-	.newsletter {
+	footer .newsletter {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 5px;
@@ -20,11 +43,6 @@ footer > form {
 	line-height: 18px;
 	
 }
-footer > form > label {
-	display: block;
-	align-items: center;
-	margin-bottom: 0.5rem;
-}
 footer .submit {
 	display: block;
 	width: 100%;
@@ -33,18 +51,6 @@ footer .submit {
 	color: inherit;
 	border-radius: 2px;
     cursor: pointer;
-}
-
-@media (min-width: 576px) {
-	.footer-container {
-	max-width: 540px;
-	}
-}
-
-@media (min-width: 768px) {
-	.footer-container {
-	max-width: 720px;
-	}
 }
 
 
