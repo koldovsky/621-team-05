@@ -1,0 +1,56 @@
+.icon-panel {
+	padding: 15px 30px 15px 30px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.icon-panel > svg {
+    color : rgb(200, 105, 58);
+}
+
+.icon-panel-title {
+	font-family: 'Prata', serif;
+	font-size: 22px;
+	font-weight: 400px;
+	line-height: 33px;
+}
+.icon-panel .orange-divider {
+	width: 10%;
+	height: 2px;
+}
+.grey-p-icon-panel {
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	font-weight: 400px;
+	line-height: 25.6px;
+	color: #898c8a;
+}
+.circle-shipping-icon, .circle-payment-icon, .circle-eco-icon, .discount-system-icon {
+  width: 60px;
+  height: 60px;
+  border: 2px solid none;
+  border-radius: 50%;
+  background: #898c8a;
+}
+ 
+ @media (min-width: 600px) {
+	.icon-panel {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 50px;
+	/*margin: 0 auto;*/
+	}
+}
+
+@media (min-width: 980px) {
+	.icon-panel {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	/*align-items: center;*/
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 50px;
+	}
+}
+
