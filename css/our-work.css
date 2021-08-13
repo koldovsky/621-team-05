@@ -72,15 +72,18 @@ header {
     font-size: 41px;
 }
 
- 
-
-
 .special {
     color: #fff;
     font-family: 'Prata';
     font-size: 16px;
-
 }
+
+@media (min-width:468px) {
+    .special{
+        font-size: 48px;
+    }
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -130,7 +133,7 @@ body {
 }
 
 .boutique-wines{
-    background-image: url(/image/bg-boutique-wine.jpg);
+    background-image: url(../image/bg-boutique-wine.jpg);
     padding: 130px 24px;
     color:var(--white);
     background-position: center;
@@ -218,27 +221,40 @@ body {
             
 
 .articles-wrapper {
-   display: flex; 
-   justify-content: space-between;
    padding: 120px 0px 60px;
 }
+
+@media (min-width: 768px) {
+    .articles-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 .wine-article {
     background-size: cover;
-    width: 31.5%;
     margin: 30px 0  0;
     padding: 300px 45px 45px;
 }
 
+@media (min-width: 768px) {
+    .wine-article  {
+        width: 31.5%;
+    }
+}
+
+
+
 .wine-article--special{
-    background-image: url(/image/special-events.jpg);
+    background-image: url(../image/special-events.jpg);
     
     
 }
 .wine-article--oraganic{
-    background-image: url(/image/organic-wine.jpg);
+    background-image: url(../image/organic-wine.jpg);
 }
 .wine-article--grape{
-    background-image: url(/image/grape-varieties.jpg);
+    background-image: url(../image/grape-varieties.jpg);
 }
 
 .orange-line{
@@ -248,13 +264,26 @@ body {
 }
 
 .features-wrapper {
-    display: flex;
     margin-top: 50px;
 }
+@media (min-width:768px) {
+    .features-wrapper {
+        display: flex;
+    }
+}
+
+
+
+
 
 .feature-img {
-    max-width: 327px;
     width: 100%;
+}
+
+@media (min-width:768px) {
+    .feature-img {
+        width: 327px;
+    }
 }
 
 .features-items{
@@ -262,17 +291,22 @@ body {
     flex-wrap: wrap;
 }
 
+
 .feature-item {
-    width: 50%;
+    width: 100%;
     padding: 50px;
 }
+@media (min-width:768px) {
+    .feature-item {
+        width: 50%;}
+    }
 
 .section-center {
     text-align:center;
 }
 
 .discover-our-wines {
-    background-image: url(/image/bg-discover-our-wines.jpg);
+    background-image: url(../image/bg-discover-our-wines.jpg);
     padding: 130px 24px;
     color:var(--white);
     background-position: center;
