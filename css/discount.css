@@ -3,7 +3,6 @@
     max-width: 980px;
     margin: auto;
 }
-
 .red-wine {
     display: block;
     background-image: url(../image/glasses.jpg);
@@ -15,7 +14,7 @@
       flex-direction: column;
       text-align: start;
       justify-content:space-evenly;
-      margin: 40px 20px;
+      margin: 20px 20px;
       padding: 50px 30px;
 }
 .white-wine {
@@ -29,7 +28,7 @@
       flex-direction: column;
       text-align: start;
       justify-content:space-evenly;
-      margin: 0px 20px;
+      margin: 20px 20px;
       padding: 50px 30px;
         
 }
@@ -42,7 +41,7 @@
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: column;
-    margin: 40px 20px;
+    margin: 30px 20px;
     padding: 0px 30px;     
 }
 .horizontal-line {
@@ -108,16 +107,17 @@
     font-weight: bold;
 }
 @media (min-width: 600px) {
-    .red-wine .white-wine {
+    .wine-block {
         display: grid;
-        grid-row: 1fr 1fr;
-        margin: 1000px 1000px;
-       
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+            
     }
     .discount-block {
         min-height: 300px;
         display: flex;
         justify-content: center;
         background-position: right;
+
     }
 }
