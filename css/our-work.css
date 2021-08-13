@@ -1,9 +1,9 @@
 :root {
     font-family: 'Rubik', sans-serif;
-   --accent-color:rgb(0, 0, 0, .5);
+   --header-color:rgb(0, 0, 0, .5);
    --orange: rgb(200, 105, 58);
    --white:#fff;
-   
+   --black:#000000
 }
 
 * {
@@ -15,7 +15,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
-    background-color: var(--accent-color);
+    background-color: var(--header-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,12 +68,12 @@ header {
 
 .section-title {
     font-family: 'Prata', serif;
-    color: #fff; 
+    color:var(--white); 
     font-size: 41px;
 }
 
 .special {
-    color: #fff;
+    color: var(--white);
     font-family: 'Prata';
     font-size: 16px;
 }
@@ -191,8 +191,8 @@ body {
   }
 
   .shop-now:hover {
-    background-color:#a55731;
-    border-color: #a55731 ;
+    background-color: var(--orange);
+    border-color:var(--orange) ;
   }
 
   .learn-more {
@@ -203,7 +203,7 @@ body {
 
   .learn-more:hover {
     background-color: var(--white);
-    color: black;
+    color: var(--black);
   }
 
 .more-arrow {
