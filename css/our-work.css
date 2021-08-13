@@ -1,8 +1,9 @@
 :root {
     font-family: 'Rubik', sans-serif;
-   --accent-color:rgb(0, 0, 0, .5);
+   --header-color:rgb(0, 0, 0, .5);
    --orange: rgb(200, 105, 58);
-   --white:#fff;
+   --white:rgb(255, 255, 255);
+   --black:rgb(0, 0, 0)
 }
 
 * {
@@ -14,7 +15,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
-    background-color: var(--accent-color);
+    background-color: var(--header-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,18 +68,26 @@ header {
 
 .section-title {
     font-family: 'Prata', serif;
-    color: #fff; 
+    color:var(--white); 
     font-size: 41px;
 }
 
 .special {
-    color: #fff;
+    color: var(--white);
     font-family: 'Prata';
-
+    font-size: 16px;
 }
+
+@media (min-width:468px) {
+    .special{
+        font-size: 48px;
+    }
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .orange-p {
@@ -109,19 +118,22 @@ header {
 	color: #898c8a;
 }
 
+
+
+
 body {
     background-color: #261e1c;
     margin: 0;
 
 }
 .orange-divider {
-    width: 5%;
+    width: 45px;
     height: 2px;
     background-color:var(--orange) ;
 }
 
 .boutique-wines{
-    background-image: url(/image/bg-boutique-wine.jpg);
+    background-image: url(../image/bg-boutique-wine.jpg);
     padding: 130px 24px;
     color:var(--white);
     background-position: center;
@@ -179,8 +191,8 @@ body {
   }
 
   .shop-now:hover {
-    background-color:#a55731;
-    border-color: #a55731 ;
+    background-color:#7c4021;
+    border-color:var(--orange) ;
   }
 
   .learn-more {
@@ -191,7 +203,7 @@ body {
 
   .learn-more:hover {
     background-color: var(--white);
-    color: black;
+    color: var(--black);
   }
 
 .more-arrow {
@@ -205,34 +217,109 @@ body {
     margin-left: 5px;
 }
 
+
+            
+
 .articles-wrapper {
-   display: flex; 
-   justify-content: space-between;
    padding: 120px 0px 60px;
 }
+
+@media (min-width: 768px) {
+    .articles-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 .wine-article {
     background-size: cover;
-    width: 31.5%;
-    margin: 30px 0  0;
+    margin: 30px 25px  0;
     padding: 300px 45px 45px;
 }
 
+@media (min-width: 768px) {
+    .wine-article  {
+        width: 31.5%;
+    }
+}
+
+
+
 .wine-article--special{
-    background-image: url(/image/special-events.jpg);
+    background-image: url(../image/special-events.jpg);
     
     
 }
 .wine-article--oraganic{
-    background-image: url(/image/organic-wine.jpg);
+    background-image: url(../image/organic-wine.jpg);
 }
 .wine-article--grape{
-    background-image: url(/image/grape-varieties.jpg);
+    background-image: url(../image/grape-varieties.jpg);
 }
 
 .orange-line{
-    color: var(--orange) ;
+    color: var(--orange);
+    
+
 }
 
+.features-wrapper {
+    margin-top: 50px;
+}
+@media (min-width:768px) {
+    .features-wrapper {
+        display: flex;
+    }
+}
+
+
+
+
+
+.feature-img {
+    width: 100%;
+}
+
+@media (min-width:768px) {
+    .feature-img {
+        width: 327px;
+    }
+}
+
+.features-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.feature-item {
+    width: 100%;
+    padding: 50px;
+}
+@media (min-width:768px) {
+    .feature-item {
+        width: 50%;}
+    }
+
+.section-center {
+    text-align:center;
+}
+
+.discover-our-wines {
+    background-image: url(../image/bg-discover-our-wines.jpg);
+    padding: 130px 24px;
+    color:var(--white);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+}
+
+.discover {
+    font-size: 58px;
+    color: var(--white);
+    font-family: 'Prata', serif;
+}
 .every-table-h2{
     font-size: 41px;
     text-align: center;
@@ -258,3 +345,25 @@ body {
     
 }
 
+section .testimonials {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+@media (min-width: 600px) {
+	section .testimonials {
+        font-size: 22px;
+        padding: 30px 15px 30px 15px;
+	}
+.orange-p {
+	font-size: 28px;
+	}
+.section-title {
+	font-size: 48px;
+	}
+.grey-p {
+    font-size: 16px;
+    }
+}
