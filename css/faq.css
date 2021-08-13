@@ -15,25 +15,37 @@ section .faq-question {
 }
 
 section .red-wine-bottle {
+	min-height: 400px;
+	
+}
+section .red-wine-bottle img {
 	width: 100%;
 	display: block;
-	min-height: 400px;
 }
 
 @media (min-width: 600px) {
 	.faq {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 2fr 1fr;
 	grid-gap: 5px;
 	}
 	.faq-question {
-	font-size: 22px;
+		font-size: 22px;
 	}
-.orange-p {
-	font-size: 28px;
+	.faq-questions {
+		margin-left: 50px;
 	}
-.section-title{
-	font-size: 48px;
+	.orange-p {
+		font-size: 28px;
+	}
+	.section-title{
+		font-size: 48px;
+	}
+	section .red-wine-bottle img {
+		margin-right: 50px;
+		max-height: 550px;
+		width: auto;
+
 	}
 }
 
