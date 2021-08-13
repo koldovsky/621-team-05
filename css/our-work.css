@@ -191,7 +191,7 @@ body {
   }
 
   .shop-now:hover {
-    background-color: var(--orange);
+    background-color:#7c4021;
     border-color:var(--orange) ;
   }
 
