@@ -1,7 +1,8 @@
 .icon-panel {
 	padding: 15px 30px 15px 30px;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-bottom: 50px;
+	
 }
 .icon-panel > svg {
     color : rgb(200, 105, 58);
@@ -12,6 +13,7 @@
 	font-size: 22px;
 	font-weight: 400px;
 	line-height: 33px;
+	color: #fff;
 }
 .icon-panel .orange-divider {
 	width: 10%;
@@ -24,7 +26,7 @@
 	line-height: 25.6px;
 	color: #898c8a;
 }
-.circle-shipping-icon, .circle-payment-icon, .circle-eco-icon, .discount-system-icon {
+.circle-shipping-icon, .circle-payment-icon, .circle-eco-icon, .circle-discount-system-icon {
   width: 60px;
   height: 60px;
   border: 2px solid none;
@@ -48,8 +50,7 @@
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 30px;
-	/*align-items: center;*/
-	padding: 10px 10px 10px 10px;
+	padding: 10px 50px 10px 50px;
 	margin-bottom: 50px;
 	}
 }
