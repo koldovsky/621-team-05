@@ -1,6 +1,6 @@
 
 .personal-discount {
-    max-width: 980px;
+    max-width: 1100px;
     margin: auto;
 }
 .red-wine {
@@ -8,28 +8,28 @@
     background-image: url(../image/glasses.jpg);
         background-size: cover;
         background-position: center;
-        min-height: 320px;
+        min-height: 400px;
         display: flex;
         align-items: flex-start;
       flex-direction: column;
       text-align: start;
       justify-content:space-evenly;
-      margin: 20px 20px;
-      padding: 50px 30px;
+      margin: 30px 30px;
+      padding: 60px 30px;
 }
 .white-wine {
     display: block;
         background-image: url(../image/glaschesse.jpg);
         background-size: cover;
         background-position: center;
-        min-height: 320px;
+        min-height: 400px;
         display: flex;
         align-items: flex-start;
       flex-direction: column;
       text-align: start;
       justify-content:space-evenly;
-      margin: 20px 20px;
-      padding: 50px 30px;
+      margin: 30px 30px;
+      padding: 60px 30px;
         
 }
 .discount-block {
@@ -41,7 +41,7 @@
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: column;
-    margin: 30px 20px;
+    margin: 30px 30px;
     padding: 0px 30px;     
 }
 .horizontal-line {
@@ -113,11 +113,23 @@
         grid-template-columns: 1fr 1fr;
             
     }
+    .red-wine {
+            min-height: 400px;
+          margin: 30px 5px 30px -60px;
+          padding: 100px 30px;
+    }
+    .white-wine {
+        min-height: 400px;
+      margin: 30px -60px 30px 5px;
+      padding: 100px 30px;
+}
     .discount-block {
         min-height: 300px;
         display: flex;
         justify-content: center;
         background-position: right;
+        margin: 20px -60px;
+      padding: 30px 30px;
 
     }
 }
