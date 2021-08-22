@@ -1,3 +1,8 @@
 .picture-our-wine-bootle {
-  width: 200px;
+ position:relative;
+ min-width: 320px;
+ min-height: 350px;
+margin: 60px 30px;
+padding: -600px;
+width: 200px;
 }
