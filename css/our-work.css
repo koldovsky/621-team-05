@@ -273,16 +273,13 @@ body {
 }
 
 
-
-
-
 .feature-img {
     width: 100%;
 }
 
 @media (min-width:768px) {
     .feature-img {
-        width: 327px;
+        /* width: 327px; */
     }
 }
 
@@ -303,9 +300,11 @@ body {
 
 .section-center {
     text-align:center;
+
 }
 
-.discover-our-wines {
+/* 
+.discovery-our-wines {
     background-image: url(../image/bg-discover-our-wines.jpg);
     padding: 130px 24px;
     color:var(--white);
@@ -313,7 +312,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 50px 0;
-}
+} */
 
 .discover {
     font-size: 58px;
