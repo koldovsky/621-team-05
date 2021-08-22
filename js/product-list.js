@@ -56,22 +56,42 @@
             "cart": "Add to cart",
             "imgUrl": "image/zifandel.jpg"            
         }
-    ]`; 
+    ]`;
 
     const products = JSON.parse(productsJson);
 
-    let productsHtml = "";
-    for (const product of products) { 
-            productsHtml += `
+    let productsHtmlArray = [];
+    for (const product of products) {
+        productsHtmlArray.push(`
             <div class="picture-our-wine">
-                    <img class="picture-our-wine-bootle" src="${product.imgUrl}" alt="${product.name}">
+                <div class="image-for-carousel">
+                    <p><img class="picture-our-wine-bootle" src="${product.imgUrl}" alt="${product.name}"></p>
                 </div>
-                <div class="add-wine-box">
+                    <div class="add-to-cart">
                     <a href="pinot-noir.html" class="buttom">${product.name}</a>
                     <p class="price">${product.price}</p>
-                    <a href="#Add-to-cart" class="buttom">${product.cart}</a>
-                </div>`;
-        }
-        document.querySelector('main .our-wine-choice').innerHTML = productsHtml;
+                    <a href="#Add-to-cart" class="buttom-add-to-cart">${product.cart}</a>
+                    </div>
+            </div>`);
+    };
+    document.querySelector('main .our-wine-choice').innerHTML = productsHtmlArray.join("");
 
+    (function () {
+        const slides = productsHtmlArray;
+        let currentSlideIndx = 0;
+
+        function showCurrentSlide() {
+            const slideCarousel = document.querySelector('.carousel-product-list .slide');
+            slideCarousel.innerHTML = slides[currentSlideIndx];
+        }
+        function nextSlide() {
+            currentSlideIndx++;
+            if (currentSlideIndx >= slides.length) currentSlideIndx = 0;
+            showCurrentSlide();
+        }
+        setInterval(nextSlide, 3000);
+        showCurrentSlide();
+
+    })();
 })();
+
