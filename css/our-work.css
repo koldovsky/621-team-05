@@ -10,16 +10,24 @@
     box-sizing: border-box;
 }
 
+
+/* Beginning of Lyuba's section */
+
 header {
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
-    background-color: var(--header-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
+}
+
+@media (min-width: 768px) {
+    header {
+        background-color: var(--header-color);
+    }
 }
 
 .header-right {
@@ -29,6 +37,29 @@ header {
     .header-right {
         display: flex;
     } 
+}
+
+.header-mobile-controls {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+@media (min-width: 768px) {
+    .header-mobile-controls {
+        display: none;
+    }
+}
+
+.burger-line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: var(--white);
+    margin-bottom: 5px;
+}
+.close-menu {
+    display: none;
 }
       
 .menu {
@@ -180,19 +211,19 @@ body {
     margin-right: 20px;
     text-decoration: none;
     text-align: center;
-    transition: color 0.7s;
+    transition: all ease 0.7s;
     font-weight: bold;
 }
 
 .shop-now {
     background-color:var(--orange);
     color: var(--white);
-    border: 0.1em solid var(--oorange);
+    border: 0.1em solid var(--orange);
   }
 
   .shop-now:hover {
     background-color:#7c4021;
-    border-color:var(--orange) ;
+    border-color: #7c4021 ;
   }
 
   .learn-more {
@@ -273,16 +304,13 @@ body {
 }
 
 
-
-
-
 .feature-img {
     width: 100%;
 }
 
 @media (min-width:768px) {
     .feature-img {
-        width: 327px;
+      width: 327px; 
     }
 }
 
@@ -294,16 +322,25 @@ body {
 
 .feature-item {
     width: 100%;
-    padding: 50px;
+    padding: 10px 50px;
 }
 @media (min-width:768px) {
     .feature-item {
-        width: 50%;}
+        width: 50%;
     }
+}
+
+.feature-item-title {
+    color: var(--white);
+    font-family: 'Prata', serif;
+    font-size: 22px;
+}
 
 .section-center {
     text-align:center;
+
 }
+
 
 .discover-our-wines {
     background-image: url(../image/bg-discover-our-wines.jpg);
@@ -319,6 +356,9 @@ body {
     font-size: 58px;
     color: var(--white);
     font-family: 'Prata', serif;
+
+
+    /*End of Lyuba's section  */
 }
 .every-table-h2{
     font-size: 41px;
