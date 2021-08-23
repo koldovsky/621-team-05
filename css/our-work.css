@@ -361,28 +361,7 @@ body {
     /*End of Lyuba's section  */
 }
 
-section .testimonials {
-    display: block;
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-}
-@media (min-width: 600px) {
-	section .testimonials {
-        font-size: 22px;
-        padding: 30px 15px 30px 15px;
-	}
-.orange-p {
-	font-size: 28px;
-	}
-.section-title {
-	font-size: 48px;
-	}
-.grey-p {
-    font-size: 16px;
-    }
-}
+
 /*Mari code start*/
 
 .best-deals{

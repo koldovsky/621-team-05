@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/our-work.css">
     <link rel="stylesheet" href="css/discount.css">
     <link rel="stylesheet" href="css/awards.css">
+    <link rel="stylesheet" href="css/testimonials.css">
     <link rel="stylesheet" href="css/faq.css">
     <link rel="stylesheet" href="css/icon-panels.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -407,10 +408,15 @@
             <h2 class="section-title">What Our Wine-Lovers Say</h2>
             <img src="image/loza.svg" width="150" alt="Grapes">
             <p class="white-p">Wine is a bottled poetry. Read some stories from our customers below.</p>
-            <div class="carousel-reviews">
+            <div class="carousel-reviews container">
                 <div class="slide"></div>
                 <button class="btn btn-info previous-slide">Previous</button>
                 <button class="btn btn-info next-slide">Next</button>
+                <div class="slide-dots">
+                    <span class="slide-dots-review" onclick="currentSlide(1)"></span> 
+                    <span class="slide-dots-review" onclick="currentSlide(2)"></span> 
+                    <span class="slide-dots-review" onclick="currentSlide(3)"></span> 
+                </div>
             </div>
         </section>
          <!--Finish block Julia-->
@@ -501,8 +507,8 @@
             </div>
         </div>
     </main>
-    <footer class="footer-container">
-        <!-- <section class="newsletter">
+    <!-- <footer class="footer-container">
+        <section class="newsletter">
             <div class="newsletter-title">
                 <p class="orange-p">Join</p>
                 <h2 class="newsletter-header">Join Our Newsletter Now</h2>
@@ -516,12 +522,11 @@
                     <button type="submit">Submit</button>
                 </form>
             </div>
-        </section> -->
-    </footer>
+        </section>
+    </footer> -->
      <!--Finish block Julia-->
 
     <script src="js/burger.js"></script>
-
     <script src="js/product-list.js"></script>
     <script src="js/carousel-reviews.js"></script>
 

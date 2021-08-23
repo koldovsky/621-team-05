@@ -8,27 +8,27 @@
     let currentSlideIdx = 0;
   
     function showCurrentSlide() {
-      const slideConteiner = document.querySelector('carousel-reviews.slide');
+      const slideConteiner = document.querySelector('.carousel-reviews .slide');
       slideConteiner.innerHTML = slides [currentSlideIdx];
     }
   
     function previousSlide() {
       currentSlideIdx--;
       if (currentSlideIdx < 0)
-        currentSlideIdx = slides.length;
+        currentSlideIdx = slides.length-1;
       showCurrentSlide();
     }
-  
+   
     function nextSlide() {
       currentSlideIdx++;
       if (currentSlideIdx >= slides.length) currentSlideIdx = 0;
       showCurrentSlide();
     }
   
-    document.querySelector('carousel-reviews.previous-slide')
+    document.querySelector('.carousel-reviews .previous-slide')
     .addEventListener('click', previousSlide);
   
-      document.querySelector('carousel-reviews.next-slide')
+      document.querySelector('.carousel-reviews .next-slide')
     .addEventListener('click', nextSlide);
   
   })();
