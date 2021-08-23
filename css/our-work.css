@@ -467,7 +467,22 @@ body {
     color: var(--orange);
     font-size: 14px;
     font-family: Rubik ,sans-serif;
-    text-align: center;
+    text-align: left;
+}
+.orange-line{
+    padding: 15px , 0;
+}
+.story-wine{
+    
+    text-align: left;
+    overflow-wrap:break-word;
+    margin: 50px 0 0;
+    padding: 0px 15px;
+}
+@media(min-width: 600px){
+    .story-wine{
+        display: flex;
+    }
 }
 .tradition-block{
     text-align: center;
@@ -493,8 +508,9 @@ span.line{
     line-height: 33px;
     font-size: 22px;
     letter-spacing: -0.44px;
-    font-weight: 400px;
+    font-weight: 400;
     vertical-align: baseline;
+    color: var(--white);
 }
 .text-grey{
     color: rgb(137,128,130);
