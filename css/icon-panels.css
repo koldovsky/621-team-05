@@ -11,7 +11,7 @@
 .icon-panel-title {
 	font-family: 'Prata', serif;
 	font-size: 22px;
-	font-weight: 400px;
+	font-weight: 400;
 	line-height: 33px;
 	color: #fff;
 }
@@ -22,7 +22,7 @@
 .grey-p-icon-panel {
 	font-family: 'Rubik', sans-serif;
 	font-size: 16px;
-	font-weight: 400px;
+	font-weight: 400;
 	line-height: 25.6px;
 	color: #898c8a;
 }
