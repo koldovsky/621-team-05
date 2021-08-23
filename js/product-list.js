@@ -96,14 +96,11 @@
         }
         setInterval(nextSlide, 3000);
         showCurrentSlide();
-
+        })();
         document.querySelector(".carousel-product-list .next-slide")
-            .addEventListener("click", nextSlide);
-        document.querySelector(".carousel-product-list .previous-slide")
-            .addEventListener("click", previousSlide);
-
-        });
-    
+        .addEventListener("click", nextSlide);
+    document.querySelector(".carousel-product-list .previous-slide")
+        .addEventListener("click", previousSlide);
 
 })();
 
