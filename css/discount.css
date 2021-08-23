@@ -15,7 +15,7 @@
       text-align: start;
       justify-content:space-evenly;
       margin: 30px 30px;
-      padding: 60px 30px;
+      padding: 60px 20px;
 }
 .white-wine {
     display: block;
@@ -62,16 +62,16 @@
         font-size: 16px;
 }
 .buttom-wine-block {
-        padding:  16px 25px;
-        border: 0px solid white;
-        border-radius: 2px;
-        color: white;
-        text-decoration: none;
-        text-align: center;
-        background-color:#c8693a;
-        font-family: 'Rubik', sans-serif;
-        font-size: 15px;
-        font-weight: bold;    
+    padding:  16px 25px;
+    border: 0px solid white;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color:#c8693a;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: bold;    
 }
 .buttom-wine-block:hover {
     background-color: #af572b;
