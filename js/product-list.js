@@ -68,7 +68,7 @@
                     <p><img class="picture-our-wine-bootle" src="${product.imgUrl}" alt="${product.name}"></p>
                 </div>
                     <div class="add-to-cart">
-                    <a href="pinot-noir.html" class="buttom">${product.name}</a>
+                    <a href="#pinot-noir.html" class="buttom">${product.name}</a>
                     <p class="price">${product.price}</p>
                     <a href="#Add-to-cart" class="buttom-add-to-cart">${product.cart}</a>
                     </div>
@@ -91,16 +91,22 @@
         }
         function previousSlide() {
             currentSlideIndx--;
-            if (currentSlideIndx >= slides.length-1) currentSlideIndx = 0;
+            if (currentSlideIndx < 0) currentSlideIndx = slides.length - 1;
             showCurrentSlide();
         }
-        setInterval(nextSlide, 3000);
         showCurrentSlide();
-        })();
+
+        setInterval(nextSlide, 10000);
+        showCurrentSlide();
+
+        document.querySelector(".carousel-product-list .previous-slide")
+        .addEventListener("click", previousSlide);
         document.querySelector(".carousel-product-list .next-slide")
         .addEventListener("click", nextSlide);
-    document.querySelector(".carousel-product-list .previous-slide")
-        .addEventListener("click", previousSlide);
-
+    })();
+    
 })();
+
+
+
 
