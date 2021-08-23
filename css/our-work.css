@@ -463,6 +463,10 @@ body {
     text-align: center;
     overflow-wrap:break-word;
 }
+.foto-stend{
+    margin: -50px , 0 ,0;
+    padding: 0, 15px;
+}
 .title-number{
     color: var(--orange);
     font-size: 14px;
@@ -478,30 +482,47 @@ body {
     overflow-wrap:break-word;
     margin: 50px 0 0;
     padding: 0px 15px;
+    letter-spacing:normal;
 }
 @media(min-width: 600px){
     .story-wine{
         display: flex;
     }
 }
+
+@media(min-width: 780px){
+    .story-wine{
+        margin: 30px , 0, 0;
+        padding: 0,15px;
+        line-height: 25.6px;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        letter-spacing:normal;
+    }
+}
+    
+
 .tradition-block{
     text-align: center;
     background-image: url(../image/soave-white.jpg);
     background-position: center;
+    background-size: cover;
+    min-width: 320px;
     color: var(--white);
     margin: 0;
     padding: 0;
     height: 855px;
     text-decoration: none;
     overflow-wrap:break-word;
+    letter-spacing:normal;
 }
 span.line{
     color: var(--orange);
 }
 .traditional-wine-h2{
     font-size: 37px;
-    text-align: center;
     color: var(--white);
+    text-align: center;
 }
 .style-block-h4{
     font-family: 'Prata', serif;
@@ -517,9 +538,46 @@ span.line{
     font-size: 16px;
     text-decoration: none;
 }
+.text-name{
+    text-align: center;
+    font-stretch: 100%;
+    font-weight: 400;
+}
 .vino-veritas-h2{
     font-size: 58px;
-    font-family: Prata ,sans-serif;
+    font-family:'Prata',sans-serif;
     text-align: left ; 
+    color: var(--white);
 }
+.p-orang-style{
+    font-size: 14px;
+    text-align: left;
+}
+.loza-img-2{
+    height: 32px;
+    font-size: 16px;
+    object-fit: contain;
+    text-align: left;
+}
+.p-history{
+    overflow-wrap: break-word;
+    font-family: Rubik,sans-serif;
+    word-wrap: break-word;
+}
+.button-style{
+    font-weight: bold;
+}
+.history{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.img-button{
+    height:50px ;
+    font-weight :400;
+    font-size :16px;
+    box-sizing :border-box;
+    color :var(--orange);
+}
+
 /*end mari code*/
