@@ -102,7 +102,8 @@
         document.querySelector(".carousel-product-list .previous-slide")
             .addEventListener("click", previousSlide);
 
-    })();
+        });
+    
 
 })();
 
