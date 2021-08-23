@@ -1,12 +1,18 @@
-const openMobileMenu = document.querySelector('.open-mobile-menu-js');
-const closeMobileMenu = document.querySelector('.close-mobile-menu-js');
+const openMobileMenuButton = document.querySelector('.open-mobile-menu-js');
+const closeMobileMenuButton = document.querySelector('.close-mobile-menu-js');
+const mobileMenu = document.querySelector('.header-right');
 
-
-
-openMobileMenu.addEventListener('click', showMobileMenu);
-closeMobileMenu.addEventListener('click', closeMobileMenu);
+openMobileMenuButton.addEventListener('click', showMobileMenu);
+closeMobileMenuButton.addEventListener('click', hideMobileMenu);
 
 function showMobileMenu(){
-    openMobileMenu.style.display = 'none';
-    closeMobileMenu.style.display = 'block';
+    openMobileMenuButton.style.display = 'none';
+    closeMobileMenuButton.style.display = 'block';
+    mobileMenu.style.display = 'block';
+}
+
+function hideMobileMenu(){
+    openMobileMenuButton.style.display = 'block';
+    closeMobileMenuButton.style.display = 'none';
+    mobileMenu.style.display = 'none';
 }
