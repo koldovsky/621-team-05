@@ -89,9 +89,20 @@
             if (currentSlideIndx >= slides.length) currentSlideIndx = 0;
             showCurrentSlide();
         }
+        function previousSlide() {
+            currentSlideIndx--;
+            if (currentSlideIndx >= slides.length-1) currentSlideIndx = 0;
+            showCurrentSlide();
+        }
         setInterval(nextSlide, 3000);
         showCurrentSlide();
 
+        document.querySelector(".carousel-product-list .next-slide")
+            .addEventListener("click", nextSlide);
+        document.querySelector(".carousel-product-list .previous-slide")
+            .addEventListener("click", previousSlide);
+
     })();
+
 })();
 

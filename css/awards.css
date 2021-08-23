@@ -14,7 +14,6 @@
 font-family:'Rubik', sans-serif;
 color: rgb(255, 255, 255);
 font-size: 18px;
-font-stretch: 100%;
 padding: 0px 30px;
 }
 .year-win {
@@ -34,7 +33,6 @@ padding: 0px 30px;
     max-width: 100%;
     display: block;
     background-position: center;
-    width: 1000x;
     padding: 15px 30px;    
 }
 @media (min-width: 600px) {

@@ -9,7 +9,7 @@
   
     function showCurrentSlide() {
       const slideConteiner = document.querySelector('.carousel-reviews .slide');
-      slideConteiner.innerHTML = slides [currentSlideIdx];
+      slideConteiner.innerHTML = slides[currentSlideIdx];
     }
   
     function previousSlide() {
