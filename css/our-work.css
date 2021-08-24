@@ -3,15 +3,45 @@
    --header-color:rgb(0, 0, 0, .5);
    --orange: rgb(200, 105, 58);
    --white:rgb(255, 255, 255);
-   --black:rgb(0, 0, 0)
+   --black:rgb(0, 0, 0);
+   --brown: #261E1C;
 }
 
 * {
     box-sizing: border-box;
 }
 
+.scroll-disabled {
+    overflow-y: hidden;
+}
 
-/* Beginning of Lyuba's section */
+/* Start of Lyuba's section */
+
+
+.not-21 {
+    padding: 65px 0;
+}
+
+@media (min-width:768px){
+    .not-21 {
+        padding: 200px 0;
+    }
+} 
+
+.sorry-h1 {
+  font-family: 'Prata', serif;
+  font-size: 58px;
+  color: var(--white);
+  font-weight: 400;
+}
+
+@media (min-width:768px){
+    .sorry-h1 {
+
+        font-size: 84px;
+
+      }
+} 
 
 header {
     position: absolute;
@@ -168,7 +198,7 @@ header {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    
+    padding: 0 20px;
 }
 
 .orange-p {
@@ -581,3 +611,35 @@ span.line{
 }
 
 /*end mari code*/
+
+/* Start block Lyuba  */
+.modal-age .special {
+    font-weight: 400;
+}
+
+button.default-button  {
+    cursor: pointer;
+}
+
+
+.modal-age-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--header-color);
+    padding: 0 20px;
+}
+
+.modal-age  {
+    max-width: 670px;
+    width: 100%;
+    padding: 80px 20px;
+    background-color: var(--brown);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*  End block Lyuba  */
