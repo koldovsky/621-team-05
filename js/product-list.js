@@ -68,7 +68,7 @@
                     <p><img class="picture-our-wine-bootle" src="${product.imgUrl}" alt="${product.name}"></p>
                 </div>
                     <div class="add-to-cart">
-                    <a href="pinot-noir.html" class="buttom">${product.name}</a>
+                    <a href="#pinot-noir.html" class="buttom">${product.name}</a>
                     <p class="price">${product.price}</p>
                     <a href="#Add-to-cart" class="buttom-add-to-cart">${product.cart}</a>
                     </div>
@@ -81,7 +81,7 @@
         let currentSlideIndx = 0;
 
         function showCurrentSlide() {
-            const slideCarousel = document.querySelector('.carousel-product-list .slide');
+            const slideCarousel = document.querySelector(".carousel-product-list .slide");
             slideCarousel.innerHTML = slides[currentSlideIndx];
         }
         function nextSlide() {
@@ -89,18 +89,27 @@
             if (currentSlideIndx >= slides.length) currentSlideIndx = 0;
             showCurrentSlide();
         }
+
         function previousSlide() {
             currentSlideIndx--;
-            if (currentSlideIndx >= slides.length-1) currentSlideIndx = 0;
+            if (currentSlideIndx < 0) currentSlideIndx = slides.length - 1;
             showCurrentSlide();
         }
+        showCurrentSlide();
+       
+    
         setInterval(nextSlide, 3000);
         showCurrentSlide();
-        })();
-        document.querySelector(".carousel-product-list .next-slide")
-        .addEventListener("click", nextSlide);
-    document.querySelector(".carousel-product-list .previous-slide")
+
+        document.querySelector(".carousel-product-list .previous-slide")
         .addEventListener("click", previousSlide);
+        document.querySelector("carousel-product-list .next-slide")
+        .addEventListener("click", nextSlide);
+
+    })();
 
 })();
+
+
+
 
