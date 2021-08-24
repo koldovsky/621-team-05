@@ -13,6 +13,31 @@
 
 /* Beginning of Lyuba's section */
 
+.not-21 {
+    padding: 65px 0;
+}
+
+@media (min-width:768px){
+    .not-21 {
+        padding: 200px 0;
+    }
+} 
+
+.sorry-h1 {
+  font-family: 'Prata', serif;
+  font-size: 58px;
+  color: var(--white);
+  font-weight: 400;
+}
+
+@media (min-width:768px){
+    .sorry-h1 {
+
+        font-size: 84px;
+
+      }
+} 
+
 header {
     position: absolute;
     top: 0;
@@ -168,7 +193,7 @@ header {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    
+    padding: 0 20px;
 }
 
 .orange-p {
