@@ -6,7 +6,7 @@
   display: block;
   margin: 0 auto;
   padding: 0px 15px;
-  width: 350px;
+  width: 340px;
 }
 .add-to-cart {
   font-family: 'Rubik', sans-serif;
@@ -28,31 +28,64 @@
   background-color:#c8693a;
   font-size: 15px;
  }
- .carousel-product-list .next-slide {
-  display: block;
-border-radius: 30%;
-transform: translate(20px, -300px);
--webkit-transform: translate(20px, -300px);
-font-size: 20px;
-color:black;
-cursor: pointer;
+.slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .carousel-product-list .previous-slide {
-  display: block;
-  border-radius: 30%;
-  transform: translate(330px, -330px);
-  -webkit-transform: translate(330px, -330px);
-  font-size: 20px;
-  color:black;
+  transform: translate(30px, 0px);
+  border-radius: 20%;
+background-color: gray;
+}
+.carousel-product-list .next-slide {
+  transform: translate(-35px, 0px);
+  border-radius: 20%;
+  background-color:gray;
+}
+.carousel-product-list .s-carousel-arrow-right {
+  transform: translate(0px, 0px);
+width: 10px;
+}
+.carousel-product-list .s-carousel-arrow-left {
+transform: rotate(180deg);
+width: 10px;
+}
+@media (min-width: 600px) {
+  .picture-our-wine-bootle {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    width: 400px;
+  }
+  .add-to-cart {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.buttom-add-to-cart {
+  padding:  10px 30px;
+  border: 0px solid white;
+  border-radius: 2px;
+  background-color:#c8693a;
+  font-size: 15px;
+ }
+ .carousel-product-list .next-slide {
+  transform: translate(-350px, -80px);
+  background-color: unset;
+  width: 30px;
+  border: none;
   cursor: pointer;
 }
-.slide-dots-round {
+.carousel-product-list .previous-slide {
+  transform: translate(330px, -60px);
+  background-color: unset;
+  width: 30px;
+  border: none;
   cursor: pointer;
-  height: 12px;
-  width: 12px;
-  background-color: #ddd;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  transform: translate(155px, -90px);
+}
+.s-carousel-arrow-left {
+  width: 100px;
+}
 }

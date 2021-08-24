@@ -74,9 +74,8 @@
                     </div>
             </div>`);
     };
-    document.querySelector('main .our-wine-choice').innerHTML = productsHtmlArray.join("");
 
-    (function () {
+      (function() {
         const slides = productsHtmlArray;
         let currentSlideIndx = 0;
 
@@ -95,18 +94,15 @@
             if (currentSlideIndx < 0) currentSlideIndx = slides.length - 1;
             showCurrentSlide();
         }
-        showCurrentSlide();
-       
-    
-        setInterval(nextSlide, 3000);
+        setInterval(nextSlide, 5000);
         showCurrentSlide();
 
         document.querySelector(".carousel-product-list .previous-slide")
         .addEventListener("click", previousSlide);
-        document.querySelector("carousel-product-list .next-slide")
+        document.querySelector(".carousel-product-list .next-slide")
         .addEventListener("click", nextSlide);
-
-    })();
+       
+        })();
 
 })();
 
