@@ -81,7 +81,7 @@
         let currentSlideIndx = 0;
 
         function showCurrentSlide() {
-            const slideCarousel = document.querySelector('.carousel-product-list .slide');
+            const slideCarousel = document.querySelector(".carousel-product-list .slide");
             slideCarousel.innerHTML = slides[currentSlideIndx];
         }
         function nextSlide() {
@@ -89,22 +89,25 @@
             if (currentSlideIndx >= slides.length) currentSlideIndx = 0;
             showCurrentSlide();
         }
+
         function previousSlide() {
             currentSlideIndx--;
             if (currentSlideIndx < 0) currentSlideIndx = slides.length - 1;
             showCurrentSlide();
         }
         showCurrentSlide();
-
-        setInterval(nextSlide, 10000);
+       
+    
+        setInterval(nextSlide, 3000);
         showCurrentSlide();
 
         document.querySelector(".carousel-product-list .previous-slide")
         .addEventListener("click", previousSlide);
-        document.querySelector(".carousel-product-list .next-slide")
+        document.querySelector("carousel-product-list .next-slide")
         .addEventListener("click", nextSlide);
+
     })();
-    
+
 })();
 
 
