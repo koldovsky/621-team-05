@@ -24,6 +24,7 @@
       if (currentSlideIdx >= slides.length) currentSlideIdx = 0;
       showCurrentSlide();
     }
+    showCurrentSlide();
   
     document.querySelector('.carousel-reviews .previous-slide')
     .addEventListener('click', previousSlide);
