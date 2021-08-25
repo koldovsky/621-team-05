@@ -244,7 +244,7 @@ body {
 }
 
 .boutique-wines{
-    background-image: url(../image/bg-boutique-wine.jpg);
+    /* background-image: url(../image/bg-boutique-wine.jpg); */
     padding: 130px 24px;
     color:var(--white);
     background-position: center;
@@ -429,7 +429,7 @@ body {
 
 
 .discover-our-wines {
-    background-image: url(../image/bg-discover-our-wines.jpg);
+    /* background-image: url(../image/bg-discover-our-wines.jpg); */
     padding: 130px 24px;
     color:var(--white);
     background-position: center;

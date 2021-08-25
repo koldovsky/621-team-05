@@ -32,7 +32,3 @@ function closeModalWindow(){
     body.classList.remove("scroll-disabled");
     
 }    
-
-
-
-
