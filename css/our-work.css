@@ -481,6 +481,7 @@ body {
     height: 100%;
     left: 0;
     align-items: center;
+    max-width: 100%;
     
 }
 @media(min-width: 600px){
@@ -493,9 +494,23 @@ body {
     text-align: center;
     overflow-wrap:break-word;
 }
+.foto{
+    object-position: 50% 50%;
+    padding: 24px;
+    
+}
 .foto-stend{
-    margin: -50px 0 0;
-    padding: 0 15px;
+    object-fit: contain;
+    min-width :327px;
+    min-height: 149.234px;
+    border-radius: inherit;
+    display: block;
+    max-width: 100%;
+}
+@media(min-width: 600px){
+    .foto-stend{
+        margin: 60px 0 105px;
+    }
 }
 .title-number{
     color: var(--orange);
@@ -504,14 +519,14 @@ body {
     text-align: left;
 }
 .orange-line{
-    padding: 15px, 0;
+    padding: 15px  0;
 }
 .story-wine{
     
     text-align: left;
     overflow-wrap:break-word;
-    margin: -50px, 0, 0;
-    padding: 0px 15px;
+    margin: -50px -15px 0;
+    padding: 50px;
     letter-spacing:normal;
 }
 @media(min-width: 600px){
@@ -522,8 +537,8 @@ body {
 
 @media(min-width: 780px){
     .story-wine{
-        margin: 30px , 0, 0;
-        padding: 0,15px;
+        margin: 30px 0 0;
+        padding: 0 15px;
         line-height: 25.6px;
         justify-content: flex-start;
         box-sizing: border-box;
@@ -541,10 +556,16 @@ body {
     color: var(--white);
     margin: 0;
     padding: 0;
-    height: 855px;
+    min-height: 855px;
     text-decoration: none;
     overflow-wrap:break-word;
     letter-spacing:normal;
+}
+@media(min-width: 780px){
+    .tradition-block{
+        min-height: 855px;
+
+    }
 }
 span.line{
     color: var(--orange);
@@ -582,6 +603,7 @@ span.line{
 .p-orang-style{
     font-size: 14px;
     text-align: left;
+    margin-top:40px;
 }
 .loza-img-2{
     height: 32px;
@@ -594,22 +616,37 @@ span.line{
     font-family: Rubik,sans-serif;
     word-wrap: break-word;
 }
+
 .button-style{
     font-weight: bold;
 }
 .history{
     margin: 0;
-    padding: 0;
-    border: 0;
+    padding: 20px;
+    background-image: url(../image/bootle-glass.png);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    
 }
 .img-button{
     height:50px ;
     font-weight :400;
     font-size :16px;
     box-sizing :border-box;
-    color :var(--orange);
+    color : #c8693a;
+    
 }
-
+@media(min-wigth:600px){
+    .p-history{
+        padding: 40px;
+        font-stretch: 100%;
+        margin: 30px 0 0;
+    }
+    .img-button{
+        display: flex;
+    }
+}
 /*end mari code*/
 
 /* Start block Lyuba  */
