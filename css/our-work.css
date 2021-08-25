@@ -652,9 +652,19 @@ span.line{
 /* Start block Lyuba  */
 .modal-age .special {
     font-weight: 400;
+    font-size: 34px;
 }
 
-button.default-button  {
+
+@media (min-width:768px){
+    .modal-age .special {
+        font-size: 48px;
+    }
+}
+
+
+
+.button.default-button  {
     cursor: pointer;
 }
 
@@ -670,13 +680,21 @@ button.default-button  {
 }
 
 .modal-age  {
-    max-width: 670px;
     width: 100%;
-    padding: 80px 20px;
+    padding: 40px 20px;
     background-color: var(--brown);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media (min-width:768px) {
+    .modal-age  {
+        max-width: 670px;
+        padding: 80px 20px;
+    }
+}
+
+
 /*  End block Lyuba  */

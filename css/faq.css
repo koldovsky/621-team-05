@@ -14,6 +14,58 @@ section .faq-question {
 	margin: 10px;
 }
 
+/* Accordion */
+.accordion-wrapper {
+	display: flex;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	min-width: 300px;
+}
+
+.accordion-item {
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid;
+	border-bottom-color: #898c8a;
+}
+
+.accordion-item-title {
+	padding: 10px;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+}
+
+.accordion-item-title::before {
+	content: "+";
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	right: 20px;
+	font-size: 24px;
+}
+
+.accordion-item-content {
+	position: relative;
+	color: #898c8a;
+	height: 0;
+	overflow: hidden;
+	transition: .5s ease-in-out;
+}
+
+.accordion-item.active .accordion-item-content {
+	height: 200px;
+}
+
+.accordion-item.active .accordion-item-title::before {
+	content: "-";
+}
+
+
+
+/* Image */
 section .red-wine-bottle {
 	min-height: 400px;
 	
