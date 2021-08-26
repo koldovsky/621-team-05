@@ -573,9 +573,13 @@ body {
     
     }
     .trad{
-    padding: 0 700px;
+    padding: 0 0 0 400px;
     margin: 0 0 ;
     text-align: left;
+    display: block;
+    margin-block: inherit;
+    margin: 0 500px;
+
     }
     .type-wine{
     text-align: left;
@@ -590,6 +594,7 @@ span.line{
     text-align: center;
     font-family: 'Prata', serif;
     text-transform: none;
+    text-align: left;
 }
 .style-block-h4{
     font-family: 'Prata', serif;
@@ -607,7 +612,7 @@ span.line{
     
 }
 .text-name{
-    text-align: center;
+    text-align: left;
     font-stretch: 100%;
     font-weight: 400;
 }
