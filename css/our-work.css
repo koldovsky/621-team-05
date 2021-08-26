@@ -513,27 +513,6 @@ body {
     max-width: 100%;
 }
 
-    
-
-
-/*@media(min-width: 500px){
-    .foto-stend{
-
-        padding: 5px 325px;
-    }
-    .wine-1{
-        padding: 5px 20px 5px 325px;
-    }
-    .wine-3{
-        padding: 5px 20px 5px 20px;
-    }
-    .wine-4{
-        padding: 5px 325px 5px 10px;
-    }
-
-
-}*/
-
 .title-number{
     color: var(--orange);
     font-size: 14px;
@@ -581,13 +560,26 @@ body {
     text-decoration: none;
     overflow-wrap:break-word;
     letter-spacing:normal;
+    
 }
+
 @media(min-width: 768px){
     .tradition-block{
-    padding: 110px 0px;   
+    padding: 10px 100px 0 30px;   
     max-width: 1990px;
-    }
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
     
+    }
+    .trad{
+    padding: 0 700px;
+    margin: 0 0 ;
+    text-align: left;
+    }
+    .type-wine{
+    text-align: left;
+    }
 }
 span.line{
     color: var(--orange);
@@ -619,9 +611,7 @@ span.line{
     font-stretch: 100%;
     font-weight: 400;
 }
-.grey-wine{
-        font-size: 16px;
-    }
+
 
 @media(min-width: 768px){
     .traditional-wine-h2{
@@ -638,7 +628,10 @@ span.line{
         flex-direction: column;
         
     }
-    
+    .grey-wine{
+        font-size: 16px;
+        text-align: left;
+    }
 }
 */
 
