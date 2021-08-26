@@ -494,7 +494,11 @@ body {
 .info-block{
     text-align: center;
     overflow-wrap:break-word;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
+
 .foto{
     object-position: 50% 50%;
     padding: 24px;
@@ -508,7 +512,11 @@ body {
     display: block;
     max-width: 100%;
 }
-@media(min-width: 500px){
+
+    
+
+
+/*@media(min-width: 500px){
     .foto-stend{
 
         padding: 5px 325px;
@@ -524,7 +532,8 @@ body {
     }
 
 
-}
+}*/
+
 .title-number{
     color: var(--orange);
     font-size: 14px;
@@ -542,13 +551,13 @@ body {
     padding: 50px;
     letter-spacing:normal;
 }
-@media(min-width: 600px){
+@media(min-width: 768px){
     .story-wine{
         display: flex;
     }
 }
 
-@media(min-width: 780px){
+@media(min-width: 768px){
     .story-wine{
         margin: 30px 0 0 ;
         padding: 5px;
@@ -565,22 +574,20 @@ body {
 .tradition-block{
     text-align: center;
     background-image: url(../image/soave-white.jpg);
-    background-position: left;
+    background-position: right;
     background-size: cover;
-    min-width: 320px;
+    min-width: 360px;
     color: var(--white);
-    margin: 0;
-    padding: 0;
-    min-height: 855px;
     text-decoration: none;
     overflow-wrap:break-word;
     letter-spacing:normal;
 }
-@media(min-width: 780px){
+@media(min-width: 768px){
     .tradition-block{
-        min-height: 905px;
-
+    padding: 110px 0px;   
+    max-width: 1990px;
     }
+    
 }
 span.line{
     color: var(--orange);
@@ -612,34 +619,28 @@ span.line{
     font-stretch: 100%;
     font-weight: 400;
 }
-@media(min-width: 600px){
+.grey-wine{
+        font-size: 16px;
+    }
+
+@media(min-width: 768px){
     .traditional-wine-h2{
-        padding: 3px  550px 2px 950px;
-        text-align: left;
+        
         font-size: 40px;
     }
-    .p-time{
-        padding: 30px  700px 3px 828px; 
-    }
     .loza-trad{
-        padding: 0  700px 3px 908px;
         height: 45px;
         font-size: 16px;
     }
     .p-trad{
         font-family: 'Rubik ' , sans-serif;
         font-size: 18px;
-        padding: 3px  385px 2px 950px;
-        text-align: left;
+        flex-direction: column;
+        
     }
-    .type-wine{
-        padding: 3px 730px 2px 860px; 
-    }
-    .grey-wine{
-        font-size: 16px;
-    }
+    
 }
-
+*/
 
 .vino-veritas-h2{
     font-size: 58px;
@@ -684,7 +685,7 @@ span.line{
     color : #c8693a;
     
 }
-@media(min-wigth:600px){
+@media(min-wigth:768px){
     .p-history{
         font-stretch: 100%;
     }
