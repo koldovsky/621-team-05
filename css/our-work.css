@@ -746,11 +746,6 @@ span.line{
 
 /* Start block footer Lyuba  */
 
-/* .footer-up {
-    display: flex;
-    align-items:stretch;
-    padding: 0;
-} */
 
 
 .footer-row {
@@ -763,17 +758,22 @@ span.line{
         flex-wrap: wrap;      
      }
  }
-.footer-col {
+ .footer-col {
+    width:100%;
+    padding: 0 15px;
+    }
+
+
+ @media (min-width:768px){
+    .footer-col {
     width:25%;
     padding: 0 15px;
-
+    }
 }
 
 .footer-col .social-icons-list {
     display: flex;
     justify-content:flex-start;
-    padding-left: 0;
-    
 }
 .footer-col .social-icons-list a {
     width: 31px;
@@ -786,6 +786,14 @@ span.line{
     list-style-type: none;
     line-height: 2.5;
     padding-left: 0;
+    
+}
+
+.footer-images {
+    display: flex;
+    flex-wrap: wrap;
+    width:25%;
+    padding: 0 15px;
     
 }
 
