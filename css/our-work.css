@@ -612,9 +612,9 @@ span.line{
     text-decoration: none;
     
 }
-.text-name{
+.text-name {
     text-align: left;
-    font-stretch: 100%;
+    font-stretch:100%;
     font-weight: 400;
 }
 
@@ -641,9 +641,9 @@ span.line{
 }
 */
 
-.vino-veritas-h2{
+.vino-veritas-h2 {
     font-size: 58px;
-    font-family:'Prata',sans-serif;
+    font-family:'Prata', sans-serif;
     text-align: left ; 
     color: var(--white);
 }
