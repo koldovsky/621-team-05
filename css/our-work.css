@@ -5,6 +5,7 @@
    --white:rgb(255, 255, 255);
    --black:rgb(0, 0, 0);
    --brown: #261E1C;
+  
 }
 
 * {
@@ -513,27 +514,6 @@ body {
     max-width: 100%;
 }
 
-    
-
-
-/*@media(min-width: 500px){
-    .foto-stend{
-
-        padding: 5px 325px;
-    }
-    .wine-1{
-        padding: 5px 20px 5px 325px;
-    }
-    .wine-3{
-        padding: 5px 20px 5px 20px;
-    }
-    .wine-4{
-        padding: 5px 325px 5px 10px;
-    }
-
-
-}*/
-
 .title-number{
     color: var(--orange);
     font-size: 14px;
@@ -570,7 +550,6 @@ body {
 
 }
     
-
 .tradition-block{
     background-image: url(../image/soave-white.jpg);
     background-position: right;
@@ -580,18 +559,29 @@ body {
     text-decoration: none;
     overflow-wrap:break-word;
     letter-spacing:normal;
-}
-.tradition-block-text{
-    text-align: center;
-    display: block;
-    padding-right: 300px; ;
+    
 }
 @media(min-width: 768px){
     .tradition-block{
-    padding: 110px 0px;   
+    padding: 10px 100px 0 30px;   
     max-width: 1990px;
-    }
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
     
+    }
+    .trad{
+    padding: 0 0 0 400px;
+    margin: 0 0 ;
+    text-align: left;
+    display: block;
+    margin-block: inherit;
+    margin: 0 500px;
+
+    }
+    .type-wine{
+    text-align: left;
+    }
 }
 span.line{
     color: var(--orange);
@@ -602,6 +592,7 @@ span.line{
     text-align: center;
     font-family: 'Prata', serif;
     text-transform: none;
+    text-align: left;
 }
 .style-block-h4{
     font-family: 'Prata', serif;
@@ -618,18 +609,15 @@ span.line{
     text-decoration: none;
     
 }
-.text-name{
-    text-align: center;
-    font-stretch: 100%;
+.text-name {
+    text-align: left;
+    font-stretch: normal;
     font-weight: 400;
 }
-.grey-wine{
-        font-size: 16px;
-    }
+
 
 @media(min-width: 768px){
     .traditional-wine-h2{
-        
         font-size: 40px;
     }
     .loza-trad{
@@ -642,13 +630,15 @@ span.line{
         flex-direction: column;
         
     }
-    
+    .grey-wine{
+        font-size: 16px;
+        text-align: left;
+    }
 }
-*/
 
-.vino-veritas-h2{
+.vino-veritas-h2 {
     font-size: 58px;
-    font-family:'Prata',sans-serif;
+    font-family:'Prata', sans-serif;
     text-align: left ; 
     color: var(--white);
 }
@@ -691,7 +681,7 @@ span.line{
 }
 @media(min-wigth:768px){
     .p-history{
-        font-stretch: 100%;
+        font-stretch: normal;
     }
     .img-button{
         display: flex;
@@ -747,4 +737,61 @@ span.line{
 }
 
 
-/*  End block Lyuba  */
+/* End block Lyuba  */
+
+/* Start block footer Lyuba  */
+
+
+
+.footer-row {
+    display: block;
+ }
+
+ @media (min-width:768px) {
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;      
+     }
+ }
+ .footer-col {
+    width:100%;
+    padding: 0 15px;
+    }
+
+
+ @media (min-width:768px){
+    .footer-col {
+    width:25%;
+    padding: 0 15px;
+    }
+}
+
+.footer-col .social-icons-list {
+    display: flex;
+    justify-content:flex-start;
+}
+.footer-col .social-icons-list a {
+    width: 31px;
+    height: 32px;
+}
+
+
+
+.menu-list-footer {
+    list-style-type: none;
+    line-height: 2.5;
+    padding-left: 0;
+    
+}
+
+.footer-images {
+    display: flex;
+    flex-wrap: wrap;
+    width:25%;
+    padding: 0 15px;
+    
+}
+
+    
+    
+

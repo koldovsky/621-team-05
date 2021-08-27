@@ -1,5 +1,6 @@
 .faq {
 	padding: 5px;
+	margin-bottom: 10px;
 }
 
 section .faq-question {
@@ -21,7 +22,6 @@ section .faq-question {
 	display: block;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
 	min-width: 300px;
 }
 
@@ -64,7 +64,6 @@ section .faq-question {
 .accordion-item.active .accordion-item-title::before {
 	content: "-";
 }
-
 
 
 /* Image */
