@@ -5,6 +5,7 @@
    --white:rgb(255, 255, 255);
    --black:rgb(0, 0, 0);
    --brown: #261E1C;
+  
 }
 
 * {
@@ -741,4 +742,49 @@ span.line{
 }
 
 
-/*  End block Lyuba  */
+/* End block Lyuba  */
+
+/* Start block footer Lyuba  */
+
+.footer-row {
+    display: block;
+    
+    
+ }
+
+ @media (min-width:768px) {
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;      
+     }
+ }
+.footer-col {
+    
+    width:25%;
+    padding: 0 15px;
+
+}
+
+.footer-col .social-icons-list {
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 0;
+    
+}
+.footer-col .social-icons-list a {
+    width: 31px;
+    height: 32px;
+}
+
+
+
+.menu-list-footer {
+    list-style-type: none;
+    line-height: 2.5;
+    padding-left: 0;
+    
+}
+
+    
+    
+
