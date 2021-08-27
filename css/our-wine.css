@@ -1,12 +1,14 @@
-.our-wine {
+.our-wines {
   max-width: 1100px;
-  margin: auto;
+    margin: auto;
+    min-height: 375px;
 }
 .picture-our-wine-bootle {
   display: block;
   margin: 0 auto;
   padding: 0px 15px;
-  width: 340px;
+ width: 300px;
+ min-height: 375px;
 }
 .add-to-cart {
   font-family: 'Rubik', sans-serif;
@@ -22,7 +24,7 @@
 }
  .buttom-add-to-cart {
   padding:  10px 30px;
-  margin: 0px 100px;
+  margin: 0px 90px;
   border: 0px solid white;
   border-radius: 2px;
   background-color:#c8693a;
@@ -50,12 +52,13 @@ width: 10px;
 transform: rotate(180deg);
 width: 10px;
 }
+
 @media (min-width: 600px) {
   .picture-our-wine-bootle {
     display: block;
     margin: 0 auto;
     padding: 30px 0 0 0;
-    width: 400px;
+    width: 300px;
   }
   .add-to-cart {
     font-family: 'Rubik', sans-serif;

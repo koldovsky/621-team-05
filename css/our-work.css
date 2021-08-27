@@ -572,7 +572,6 @@ body {
     
 
 .tradition-block{
-    text-align: center;
     background-image: url(../image/soave-white.jpg);
     background-position: right;
     background-size: cover;
@@ -581,6 +580,11 @@ body {
     text-decoration: none;
     overflow-wrap:break-word;
     letter-spacing:normal;
+}
+.tradition-block-text{
+    text-align: center;
+    display: block;
+    padding-right: 300px; ;
 }
 @media(min-width: 768px){
     .tradition-block{
