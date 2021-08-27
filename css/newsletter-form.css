@@ -10,8 +10,8 @@
 @media (min-width: 500px) {
   .newsletter-wrapper {
 	display: grid;
-	  grid-template-columns: 2fr 1fr;
-	  grid-gap: 10px;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 10px;
 	align-items: center;
   }
 }
