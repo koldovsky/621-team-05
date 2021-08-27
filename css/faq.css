@@ -1,5 +1,6 @@
 .faq {
 	padding: 5px;
+	margin-bottom: 10px;
 }
 
 section .faq-question {
@@ -64,7 +65,6 @@ section .faq-question {
 .accordion-item.active .accordion-item-title::before {
 	content: "-";
 }
-
 
 
 /* Image */
