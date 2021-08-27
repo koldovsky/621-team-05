@@ -614,14 +614,13 @@ span.line{
 }
 .text-name {
     text-align: left;
-    font-stretch:100%;
+    font-stretch: normal;
     font-weight: 400;
 }
 
 
 @media(min-width: 768px){
     .traditional-wine-h2{
-        
         font-size: 40px;
     }
     .loza-trad{
@@ -686,7 +685,7 @@ span.line{
 }
 @media(min-wigth:768px){
     .p-history{
-        font-stretch: 100%;
+        font-stretch: normal;
     }
     .img-button{
         display: flex;

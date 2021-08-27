@@ -22,7 +22,6 @@ section .faq-question {
 	display: block;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
 	min-width: 300px;
 }
 
