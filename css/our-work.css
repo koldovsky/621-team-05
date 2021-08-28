@@ -775,7 +775,7 @@ span.line{
     justify-content:flex-start;
 }
 .footer-col .social-icons-list a {
-    width: 31px;
+    width: 32px;
     height: 32px;
 }
 
@@ -791,11 +791,18 @@ span.line{
 .footer-images {
     display: flex;
     flex-wrap: wrap;
-    width:25%;
-    padding: 0 15px;
-    
+    list-style-type: none;
+    padding: 0;
+    margin: 10px -5px;
 }
-
+.footer-imges-item {
+    width: 33%;
+    padding: 0 5px;
+    margin-bottom: 7px;
+}
+.footer-imges-item img {
+    width: 100%;
+}
     
     
 
