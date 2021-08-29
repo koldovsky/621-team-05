@@ -5,7 +5,8 @@
    --white:rgb(255, 255, 255);
    --black:rgb(0, 0, 0);
    --brown:#261E1C;
-   --grey:#898082
+   --grey:#898082;
+   --dark:#1d1816;
   
 }
 
@@ -192,7 +193,7 @@ header {
 }
 
 @media (min-width:468px) {
-    .special{
+    .special {
         font-size: 48px;
     }
 }
@@ -200,8 +201,15 @@ header {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
 }
+
+@media (min-width:468px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
 
 .orange-p {
 	font-family: 'Great Vibes', undefined;
@@ -744,6 +752,15 @@ span.line{
 .footer {
     text-align: center;
 }
+@media (min-width:768px) {
+    .footer {
+        text-align: left;
+    }
+}
+
+.footer-up {
+    background-color:var(--dark);
+}
 
 .footer-title{
     font-family: 'Prata', serif;
@@ -752,15 +769,29 @@ span.line{
     font-weight: 400;
 }
 
-footer .orange-divider {
-margin: 0 auto;
-
+.footer .orange-divider {
+    margin: 0 auto;
+    width: 47px;
+    height: 2px;
+    
 }
-.grey-footer-p {
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    color: var(--grey);
 
+@media (min-width:768px) {
+    .footer .orange-divider {
+       margin: 0;
+    }
+}
+
+.grey-footer-p {
+    font-size: 16px;
+   }
+
+@media (min-width:768px) {
+    .grey-footer-p {
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        color: var(--grey);
+    }
 }
 .footer-row {
     display: block;
@@ -785,15 +816,24 @@ margin: 0 auto;
     }
 }
 
+
 .footer-col .social-icons-list {
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
+}
+
+@media (min-width:768px){
+    .footer-col .social-icons-list {
+     justify-content:flex-start;
+    }
+    .footer-col .social-icons-list li {
+        margin: 0 20px 0 0;
+       }
 }
 .footer-col .social-icons-list a {
     width: 32px;
     height: 32px;
 }
-
 
 
 .menu-list-footer {
@@ -808,14 +848,25 @@ margin: 0 auto;
     flex-wrap: wrap;
     list-style-type: none;
     padding: 0;
-    margin: 10px -5px;
+    margin: 28px -5px;
+
 }
-.footer-imges-item {
-    width: 33%;
+
+.footer-images-item {
+    width: 50%;
     padding: 0 5px;
     margin-bottom: 7px;
+
 }
-.footer-imges-item img {
+
+@media (min-width:768px){
+    .footer-images-item {
+        width: 33%;
+    }
+}
+
+
+.footer-images-item img {
     width: 100%;
 }
     
