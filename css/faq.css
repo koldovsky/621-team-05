@@ -1,5 +1,5 @@
+
 .faq {
-	padding: 5px;
 	margin-bottom: 10px;
 }
 
@@ -23,6 +23,7 @@ section .faq-question {
 	align-items: center;
 	justify-content: center;
 	min-width: 300px;
+	height: 50vh;
 }
 
 .accordion-item {
@@ -69,7 +70,7 @@ section .faq-question {
 /* Image */
 section .red-wine-bottle {
 	min-height: 400px;
-	
+	/* margin-bottom: 30px;	 */
 }
 section .red-wine-bottle img {
 	width: 100%;
@@ -95,7 +96,8 @@ section .red-wine-bottle img {
 		font-size: 48px;
 	}
 	section .red-wine-bottle img {
-		margin-right: 50px;
+		margin-right: 20px;
+		margin-bottom: 50px;
 		max-height: 550px;
 		width: auto;
 
