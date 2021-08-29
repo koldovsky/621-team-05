@@ -1,10 +1,11 @@
 :root {
     font-family: 'Rubik', sans-serif;
    --header-color:rgb(0, 0, 0, .5);
-   --orange: rgb(200, 105, 58);
+   --orange:rgb(200, 105, 58);
    --white:rgb(255, 255, 255);
    --black:rgb(0, 0, 0);
-   --brown: #261E1C;
+   --brown:#261E1C;
+   --grey:#898082
   
 }
 
@@ -744,9 +745,27 @@ span.line{
 /* End block Lyuba  */
 
 /* Start block footer Lyuba  */
+.footer {
+    text-align: center;
+}
 
+.footer-title{
+    font-family: 'Prata', serif;
+    font-size: 22px;
+    color: var(--white);
+    font-weight: 400;
+}
 
+footer .orange-divider {
+margin: 0 auto;
 
+}
+.grey-footer-p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: var(--grey);
+
+}
 .footer-row {
     display: block;
  }
