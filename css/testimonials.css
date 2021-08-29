@@ -1,3 +1,5 @@
+
+
 .testimonials {
     display: block;
     max-width: 300px;
@@ -25,8 +27,9 @@
 
 /* Кнопки вперед і назад */
 
-.testimonials .slide .previous-slide, .testimonials .slide .next-slide {
-    cursor: pointer;
+.testimonials img, svg {
+  
+    /* cursor: pointer;
     position: absolute;
     top: 0;
     top: 50%;
@@ -37,34 +40,28 @@
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0; */
 }
-.testimonials .slide .next-slide {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+.testimonials .next-slide {
+
 }
+    /* cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0; */
+
+
 
 /* При наведении на кнопки добавляем фон кнопок */
 .testimonials .slide .previous-slide:hover,
 .testimonials .slide .next-slide:hover {
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Кружочки */
-.slide-dots {
-    text-align: center;
-}
-.slide-dots-review {
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-    margin: 0 2px;
-    background-color: #ddd;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active,
-.slide-dots_item:hover {
-    background-color: #aaa;
 }
