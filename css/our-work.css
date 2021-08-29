@@ -646,16 +646,43 @@ span.line{
     }
 }
 
+.history{
+    padding: 100px 0;
+    display: block;
+}
+.history-block{
+    margin: 0;
+    padding: 0 24px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+.back{
+    background-image: url(../image/bootle-glass.png);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;  
+}
+.play-video{
+    padding: 0 24px; 
+}
 .vino-veritas-h2 {
     font-size: 58px;
     font-family:'Prata', sans-serif;
     text-align: left ; 
     color: var(--white);
+    margin: 0;
+    text-transform: none;
+    vertical-align :baseline;
 }
 .p-orang-style{
     font-size: 14px;
     text-align: left;
-    margin-top:40px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    
 }
 .loza-img-2{
     height: 32px;
@@ -672,15 +699,8 @@ span.line{
 .button-style{
     font-weight: bold;
 }
-.history{
-    margin: 0;
-    padding: 20px;
-    background-image: url(../image/bootle-glass.png);
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 600px;
-    
-}
+
+
 .img-button{
     height:50px ;
     font-weight :400;
@@ -689,13 +709,24 @@ span.line{
     color : #c8693a;
     
 }
+
+
 @media(min-wigth:768px){
     .p-history{
         font-stretch: normal;
-    }
-    .img-button{
+        padding: 165px 0;
         display: flex;
     }
+    .history-block{
+        padding: 20px 10px 10px 500px ;
+        text-align: center;
+        
+    }
+    .play-video{
+        
+        text-align: right;
+    }  
+
 }
 /*end mari code*/
 
@@ -745,6 +776,7 @@ span.line{
         padding: 80px 20px;
     }
 }
+
 
 
 /* End block Lyuba  */
