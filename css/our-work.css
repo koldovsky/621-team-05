@@ -551,9 +551,7 @@ body {
 
 }
     
-
 .tradition-block{
-    text-align: center;
     background-image: url(../image/soave-white.jpg);
     background-position: right;
     background-size: cover;
@@ -564,7 +562,6 @@ body {
     letter-spacing:normal;
     
 }
-
 @media(min-width: 768px){
     .tradition-block{
     padding: 10px 100px 0 30px;   
@@ -639,7 +636,6 @@ span.line{
         text-align: left;
     }
 }
-*/
 
 .vino-veritas-h2 {
     font-size: 58px;
