@@ -1,14 +1,14 @@
 :root {
     font-family: 'Rubik', sans-serif;
-   --header-color:rgb(0, 0, 0, .5);
-   --orange:rgb(200, 105, 58);
-   --white:rgb(255, 255, 255);
-   --black:rgb(0, 0, 0);
-   --brown:#261E1C;
+   --header-color:rgba(22, 18, 18, .5);
+   --orange:#c8693a;
+   --orange-dark:#7c4021;
+   --white:#fff;
+   --black:#000;
+   --brown:#261E1C;             
    --grey:#898082;
-   --dark:#1d1816;
-   --dark-footer:#130F0E;
-  
+   --dark-footer:#130F0E;  
+   --dark-header:#1a1512;
 }
 
 * {
@@ -26,7 +26,7 @@
     padding: 65px 0;
 }
 
-@media (min-width:768px){
+@media (min-width:768px) {
     .not-21 {
         padding: 200px 0;
     }
@@ -39,12 +39,10 @@
   font-weight: 400;
 }
 
-@media (min-width:768px){
+@media (min-width:768px) {
     .sorry-h1 {
-
         font-size: 84px;
-
-      }
+    }
 } 
 
 header {
@@ -77,10 +75,10 @@ header {
     left: 0px;
     right: 0px;
     text-align: center;
-    background-color: rgb(26, 21, 18);
+    background-color: var(--dark-header);
     height: 100vh;
-
 }
+
 @media (min-width: 768px) {
     .header-right {
         display: flex;
@@ -110,8 +108,8 @@ header {
     height: 2px;
     background-color: var(--white);
     margin-bottom: 5px;
-    
 }
+
 .close-menu {
     display: none;
 }
@@ -126,8 +124,6 @@ header {
     transform: rotate(-45deg);
 }
       
-
-
 .menu-list {
     display: block;
     list-style-type: none;
@@ -144,12 +140,9 @@ header {
     }
 }
 
-
 .menu-list li {
     padding: 7px;
 }
-
-
 
 .menu-list a {
     text-decoration: none;
@@ -211,7 +204,6 @@ header {
     }
 }
 
-
 .orange-p {
 	font-family: 'Great Vibes', undefined;
 	font-size: 28px;
@@ -221,6 +213,7 @@ header {
 	letter-spacing: normal;
 	color: var(--orange);
 }
+
 .white-p {
 	font-family: 'Rubik', sans-serif;
 	font-size: 18px;
@@ -230,6 +223,7 @@ header {
 	letter-spacing: normal;
 	color:var(--white);
 }
+
 .grey-p {
     font-family: 'Rubik', sans-serif;
 	font-size: 16px;
@@ -240,11 +234,8 @@ header {
 	color: #898c8a;
 }
 
-
-
-
 body {
-    background-color: #261e1c;
+    background-color: var(--brown);
     margin: 0;
 
 }
@@ -267,8 +258,7 @@ body {
 @media (min-width: 768px) {
     .boutique-wines {
         padding: 200px 20px 200px 44%;
-    }
-    
+    }   
 }
 
 .boutique-wines h1 {
@@ -281,11 +271,11 @@ body {
     font-style: normal;
     letter-spacing: 0;
 }
+
 @media (min-width: 768px) {
     .boutique-wines h1 {
         font-size: 84px;
-    }
-    
+    } 
 }
 
 .button-wrapper{
@@ -305,6 +295,7 @@ body {
     transition: all ease 0.7s;
     font-weight: bold;
 }
+
 @media (min-width: 768px) {
     .default-button {
         padding: 18px 26px;
@@ -316,23 +307,23 @@ body {
     background-color:var(--orange);
     color: var(--white);
     border: 0.1em solid var(--orange);
+}
+
+.shop-now:hover {
+    background-color:var(--orange-dark);
+    border-color:var(--orange-dark) ;
   }
 
-  .shop-now:hover {
-    background-color:#7c4021;
-    border-color: #7c4021 ;
-  }
-
-  .learn-more {
+.learn-more {
     background-color: transparent;
     color: var(--white);
     border: 0.1em solid var(--white);
-  }
+}
 
-  .learn-more:hover {
+.learn-more:hover {
     background-color: var(--white);
     color: var(--black);
-  }
+}
 
 .more-arrow {
     display: flex;
@@ -344,9 +335,6 @@ body {
 .more-arrow img {
     margin-left: 5px;
 }
-
-
-            
 
 .articles-wrapper {
    padding: 120px 0px 60px;
@@ -371,24 +359,20 @@ body {
     }
 }
 
-
-
-.wine-article--special{
-    background-image: url(../image/special-events.jpg);
-    
-    
+.wine-article--special {
+    background-image: url(../image/special-events.jpg);  
 }
-.wine-article--oraganic{
+
+.wine-article--oraganic {
     background-image: url(../image/organic-wine.jpg);
 }
-.wine-article--grape{
+
+.wine-article--grape {
     background-image: url(../image/grape-varieties.jpg);
 }
 
-.orange-line{
+.orange-line {
     color: var(--orange);
-    
-
 }
 
 .features-wrapper {
@@ -400,7 +384,6 @@ body {
     }
 }
 
-
 .feature-img {
     width: 100%;
 }
@@ -411,16 +394,16 @@ body {
     }
 }
 
-.features-items{
+.features-items {
     display: flex;
     flex-wrap: wrap;
 }
-
 
 .feature-item {
     width: 100%;
     padding: 10px 50px;
 }
+
 @media (min-width:768px) {
     .feature-item {
         width: 50%;
@@ -438,7 +421,6 @@ body {
 
 }
 
-
 .discover-our-wines {
     background-image: url(../image/bg-discover-our-wines.jpg);
     padding: 130px 24px;
@@ -454,15 +436,12 @@ body {
     font-size: 58px;
     color: var(--white);
     font-family: 'Prata', serif;
-
-
-    /*End of Lyuba's section  */
 }
-
+/*End of Lyuba's section  */
 
 /*Mari code start*/
 
-.best-deals{
+.best-deals {
     text-align: center;
     overflow-wrap:break-word;
 }
@@ -477,12 +456,12 @@ body {
     line-height: 25.6px;
     text-align: center;
 }
-.block-text{
+.block-text {
     text-align: center;
     font-size: 18px;
 }
 
-.style-carousel{
+.style-carousel {
     text-align: center;
     display: block;
     font-size: 16px;
@@ -496,13 +475,13 @@ body {
     max-width: 100%;
     
 }
-@media(min-width: 600px){
+@media(min-width: 600px) {
 
     .botels-of-wine{
         display: flex;
     }
 }
-.info-block{
+.info-block {
     text-align: center;
     overflow-wrap:break-word;
     max-width: 1200px;
@@ -510,12 +489,12 @@ body {
     padding: 0 20px;
 }
 
-.foto{
+.foto {
     object-position: 50% 50%;
     padding: 24px;
     
 }
-.foto-stend{
+.foto-stend {
     object-fit: contain;
     min-width :327px;
     min-height: 149.234px;
@@ -524,31 +503,32 @@ body {
     max-width: 100%;
 }
 
-.title-number{
+.title-number {
     color: var(--orange);
     font-size: 14px;
     font-family: Rubik ,sans-serif;
     text-align: left;
 }
-.orange-line{
+.orange-line {
     padding: 15px  0;
 }
-.story-wine{
-    
+
+.story-wine {
     text-align: left;
     overflow-wrap:break-word;
     margin: -50px -15px 0;
     padding: 50px;
     letter-spacing:normal;
 }
-@media(min-width: 768px){
-    .story-wine{
+
+@media(min-width: 768px) {
+    .story-wine {
         display: flex;
     }
 }
 
-@media(min-width: 768px){
-    .story-wine{
+@media(min-width: 768px) {
+    .story-wine {
         margin: 30px 0 0 ;
         padding: 5px;
         line-height: 25.6px;
@@ -556,11 +536,9 @@ body {
         box-sizing: border-box;
         letter-spacing:normal;
     }
-    
-
 }
     
-.tradition-block{
+.tradition-block {
     background-image: url(../image/soave-white.jpg);
     background-position: right;
     background-size: cover;
@@ -568,10 +546,10 @@ body {
     color: var(--white);
     text-decoration: none;
     overflow-wrap:break-word;
-    letter-spacing:normal;
-    
+    letter-spacing:normal;  
 }
-@media(min-width: 768px){
+
+@media(min-width: 768px) {
     .tradition-block{
     padding: 10px 100px 0 30px;   
     max-width: 1990px;
@@ -580,7 +558,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     
     }
-    .trad{
+    .trad {
     padding: 0 0 0 400px;
     margin: 0 0 ;
     text-align: left;
@@ -589,14 +567,16 @@ body {
     margin: 0 500px;
 
     }
-    .type-wine{
+    .type-wine {
     text-align: left;
     }
 }
-span.line{
+
+span.line {
     color: var(--orange);
-}
-.traditional-wine-h2{
+} 
+
+.traditional-wine-h2 {
     font-size: 37px;
     color: var(--white);
     text-align: center;
@@ -604,7 +584,8 @@ span.line{
     text-transform: none;
     text-align: left;
 }
-.style-block-h4{
+
+.style-block-h4 {
     font-family: 'Prata', serif;
     line-height: 33px;
     font-size: 22px;
@@ -613,44 +594,45 @@ span.line{
     vertical-align: baseline;
     color: var(--white);
 }
-.text-grey{
+
+.text-grey {
     color: rgb(137,128,130);
     font-size: 16px;
     text-decoration: none;
     
 }
+
 .text-name {
     text-align: left;
     font-stretch: normal;
     font-weight: 400;
 }
 
-
-@media(min-width: 768px){
-    .traditional-wine-h2{
+@media(min-width: 768px) {
+    .traditional-wine-h2 {
         font-size: 40px;
     }
-    .loza-trad{
+    .loza-trad {
         height: 45px;
         font-size: 16px;
     }
-    .p-trad{
+    .p-trad {
         font-family: 'Rubik ' , sans-serif;
         font-size: 18px;
         flex-direction: column;
         
     }
-    .grey-wine{
+    .grey-wine {
         font-size: 16px;
         text-align: left;
     }
 }
 
-.history{
+.history {
     padding: 100px 0;
     display: block;
 }
-.history-block{
+.history-block {
     margin: 0;
     padding: 0 24px;
     border: 0;
@@ -659,15 +641,16 @@ span.line{
     vertical-align: baseline;
     
 }
-.back{
+.back {
     background-image: url(../image/bootle-glass.png);
     background-size: cover;
     background-attachment: fixed;
     min-height: 600px;  
 }
-.play-video{
+.play-video {
     padding: 0 24px; 
 }
+
 .vino-veritas-h2 {
     font-size: 58px;
     font-family:'Prata', sans-serif;
@@ -677,41 +660,50 @@ span.line{
     text-transform: none;
     vertical-align :baseline;
 }
-.p-orang-style{
+
+.p-orang-style {
     font-size: 14px;
     text-align: left;
     margin-top: 30px;
     margin-bottom: 0;
     
 }
-.loza-img-2{
+
+.loza-img-2 {
     height: 32px;
     font-size: 16px;
     object-fit: contain;
     text-align: left;
 }
-.p-history{
+
+.p-history {
     overflow-wrap: break-word;
     font-family: Rubik,sans-serif;
     word-wrap: break-word;
 }
 
-.button-style{
+.button-style {
     font-weight: bold;
 }
 
-
-.img-button{
-    height:50px ;
-    font-weight :400;
-    font-size :16px;
-    box-sizing :border-box;
-    color : #c8693a;
-    
+.history {
+    margin: 0;
+    padding: 20px;
+    background-image: url(../image/bootle-glass.png);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px; 
 }
 
+.img-button {
+    height:50px ;
+    font-weight:400;
+    font-size:16px;
+    box-sizing :border-box;
+    color:var(--orange);  
+}
 
-@media(min-wigth:768px){
+@media(min-wigth:768px) {
     .p-history{
         font-stretch: normal;
         padding: 165px 0;
@@ -736,19 +728,15 @@ span.line{
     font-size: 34px;
 }
 
-
-@media (min-width:768px){
+@media (min-width:768px) {
     .modal-age .special {
         font-size: 48px;
     }
 }
 
-
-
-.button.default-button  {
+.button.default-button {
     cursor: pointer;
 }
-
 
 .modal-age-wrapper {
     position: fixed;
@@ -760,7 +748,7 @@ span.line{
     padding: 0 20px;
 }
 
-.modal-age  {
+.modal-age {
     width: 100%;
     padding: 40px 20px;
     background-color: var(--brown);
@@ -776,17 +764,14 @@ span.line{
         padding: 80px 20px;
     }
 }
-
-
-
 /* End block Lyuba  */
 
 /* Start block footer Lyuba  */
-.footer {
+footer {
     text-align: center;
 }
 @media (min-width:768px) {
-    .footer {
+    footer {
         text-align: left;
     }
 }
@@ -802,7 +787,7 @@ span.line{
     font-weight: 400;
 }
 
-.footer .orange-divider {
+footer .orange-divider {
     margin: 0 auto;
     width: 47px;
     height: 2px;
@@ -836,19 +821,18 @@ span.line{
         flex-wrap: wrap;      
      }
  }
+
  .footer-col {
     width:100%;
     padding: 0 15px;
-    }
+}
 
-
- @media (min-width:768px){
+ @media (min-width:768px) {
     .footer-col {
     width:25%;
     padding: 0 15px;
     }
 }
-
 
 .footer-col .social-icons-list {
     display: flex;
@@ -861,19 +845,17 @@ span.line{
     }
     .footer-col .social-icons-list li {
         margin: 0 20px 0 0;
-       }
+    }
 }
 .footer-col .social-icons-list a {
     width: 32px;
     height: 32px;
 }
 
-
 .menu-list-footer {
     list-style-type: none;
     line-height: 2.5;
-    padding-left: 0;
-    
+    padding-left: 0; 
 }
 
 .footer-images {
@@ -882,36 +864,35 @@ span.line{
     list-style-type: none;
     padding: 0;
     margin: 28px -5px;
-
 }
 
 .footer-images-item {
     width: 50%;
     padding: 0 5px;
     margin-bottom: 7px;
-
 }
 
-@media (min-width:768px){
+@media (min-width:768px) {
     .footer-images-item {
         width: 33%;
     }
 }
-
 
 .footer-images-item img {
     width: 100%;
 }
 
 .footer-down {
-    background-color: #130F0E;
+    background-color: var(--dark-footer);
     font-size: 14px;
     color: white;
 }
+
 .footer-down-text {
     font-weight: 400;
     font-size: 14px;
 }
+
 .footer-down .container {
 display: flex;
 justify-content: space-between;
