@@ -696,6 +696,7 @@ span.line {
     background-size: cover;
     background-attachment: fixed;
     min-height: 600px; 
+
 }
 
 .img-button {
@@ -706,20 +707,20 @@ span.line {
     color:var(--orange);  
 }
 
-@media(min-wigth:768px) {
-    .p-history{
-        font-stretch: normal;
-        padding: 165px 0;
+@media (min-wigth: 768px) {
+    .history{
+        /*font-stretch: normal;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 10px;*/
         display: flex;
+        justify-content: space-between;
     }
     .history-block{
-        padding: 20px 10px 10px 500px ;
         text-align: center;
-        
     }
     .play-video{
-        
-        text-align: right;
+        align-items: center;
     }  
 
 }
