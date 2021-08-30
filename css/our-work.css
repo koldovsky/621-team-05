@@ -10,8 +10,9 @@
    --light-brown:#3b2e2b;
    --gray-bottom: #898c8a;             
    --grey:#898082;
-   --dark-footer:#130F0E;  
+   --dark-footer:#130F0E;
    --dark-header:#1a1512;
+   --dark:#0f0c0b;
 }
 
 * {
@@ -23,7 +24,6 @@
 }
 
 /* Start of Lyuba's section */
-
 
 .not-21 {
     padding: 65px 0;
