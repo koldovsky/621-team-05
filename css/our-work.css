@@ -484,6 +484,7 @@ body {
         display: flex;
     }
 }
+
 .info-block {
     text-align: center;
     overflow-wrap:break-word;
