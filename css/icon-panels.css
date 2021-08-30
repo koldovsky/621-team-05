@@ -24,12 +24,27 @@
 	color: var(--grey);
 }
 .circle-shipping-icon, .circle-payment-icon, .circle-eco-icon, .circle-discount-system-icon {
-  width: 50px;
-  height: 50px;
-  border: 2px solid none;
-  border-radius: 50%;
-  background: var(--black);
-  color: var(--orange);
+	background-color: var(--light-brown);
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	position: relative;
+	transition: .3s;	
+}
+
+.circle-shipping-icon svg, .circle-payment-icon svg, .circle-eco-icon svg, .circle-discount-system-icon svg {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 40px;
+	height: 40px;
+	transition: .3s;
+	color: var(--orange);
+}
+
+.circle-shipping-icon svg:hover, .circle-payment-icon svg:hover, .circle-eco-icon svg:hover, .circle-discount-system-icon svg:hover {
+	transform: translate(-50%, -50%) scale(2.3);
 }
  
  @media (min-width: 600px) {
@@ -39,7 +54,6 @@
 	grid-gap: 10px;
 	padding: 10px 10px 10px 10px;
 	margin-bottom: 50px;
-	/*margin: 0 auto;*/
 	}
 }
 
