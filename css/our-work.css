@@ -632,28 +632,46 @@ span.line {
 }
 
 .history .container {                
-       position: relative;
+       position: absolute;
+}
+
+@media (min-width:768px) {
+.history .container {                
+    position: relative;
+    }
 }
 
 .history-block {
-    width: 33.33%;
-    margin: 0;
-    padding: 0 24px;
-    border: 0;
+    width: 100%; 
+}
+
+@media (min-width:768px) {
+    .history-block {
+        width: 33.33%;
+        margin: 0;
+        padding: 0 24px;
+        border: 0;
+    }
+}
+
+.play-video {
+    padding-top: 20px;
+}++
+
+@media (min-width:768px) {
+    .play-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
 }
 
 .back {
     background-image: url(../image/bootle-glass.png);
     background-size: cover;
     background-attachment: fixed;
-    min-height: 600px;  
-}
-.play-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+    /* min-height: 600px;   */
 }
 
 .vino-veritas-h2 {
@@ -698,7 +716,6 @@ span.line {
     background-size: cover;
     background-attachment: fixed;
     min-height: 600px; 
-
 }
 
 .img-button {
@@ -709,20 +726,20 @@ span.line {
     color:var(--orange);  
 }
 
-@media (min-wigth: 768px) {
-    .history{
-        /*font-stretch: normal;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-gap: 10px;*/
+@media(min-wigth:768px) {
+    .p-history{
+        font-stretch: normal;
+        padding: 165px 0;
         display: flex;
-        justify-content: space-between;
     }
     .history-block{
+        padding: 20px 10px 10px 500px ;
         text-align: center;
+        
     }
     .play-video{
-        align-items: center;
+        
+        text-align: right;
     }  
 
 }
