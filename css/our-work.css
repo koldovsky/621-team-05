@@ -631,19 +631,17 @@ span.line {
     }
 }
 
-.history {
-    padding: 100px 0;
-    display: block;
+.history .container {                
+       position: relative;
 }
+
 .history-block {
+    width: 33.33%;
     margin: 0;
     padding: 0 24px;
     border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    
 }
+
 .back {
     background-image: url(../image/bootle-glass.png);
     background-size: cover;
@@ -651,7 +649,11 @@ span.line {
     min-height: 600px;  
 }
 .play-video {
-    padding: 0 24px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 .vino-veritas-h2 {
