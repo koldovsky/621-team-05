@@ -46,11 +46,11 @@
 }
 .carousel-product-list .s-carousel-arrow-right {
   transform: translate(0px, 0px);
-width: 10px;
+width: 40px;
 }
 .carousel-product-list .s-carousel-arrow-left {
-transform: rotate(180deg);
-width: 10px;
+/* transform: rotate(180deg); */
+width: 40px;
 }
 
 @media (min-width: 600px) {
