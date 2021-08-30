@@ -1,3 +1,4 @@
+
 const openMobileMenuButton = document.querySelector('.open-mobile-menu-js');
 const closeMobileMenuButton = document.querySelector('.close-mobile-menu-js');
 const mobileMenu = document.querySelector('.header-right');

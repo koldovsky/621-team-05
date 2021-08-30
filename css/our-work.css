@@ -12,7 +12,7 @@
    --grey:#898082;
    --dark-footer:#130F0E;
    --dark-header:#1a1512;
-   --dark:#0f0c0b;
+   --dark:#1b1613;
 }
 
 * {
@@ -680,7 +680,7 @@ span.line {
 
 .play-video {
     padding-top: 20px;
-}++
+}
 
 @media (min-width:768px) {
     .play-video {
@@ -832,6 +832,8 @@ footer {
     font-size: 22px;
     color: var(--white);
     font-weight: 400;
+    margin-top: 0;
+    padding: 5px;
 }
 
 footer .orange-divider {
