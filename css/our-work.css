@@ -1,13 +1,14 @@
 :root {
     font-family: 'Rubik', sans-serif;
-   --header-color:#fc7a7a80;
+   --header-color:rgba(22, 18, 18, .5);
    --orange:#c8693a;
    --orange-dark:#7c4021;
    --white:#fff;
    --black:#000;
-   --brown:#261E1C;
+   --brown:#261E1C;             
    --grey:#898082;
    --dark-footer:#130F0E;  
+   --dark-header:#1a1512;
 }
 
 * {
@@ -40,10 +41,8 @@
 
 @media (min-width:768px) {
     .sorry-h1 {
-
         font-size: 84px;
-
-      }
+    }
 } 
 
 header {
@@ -76,10 +75,10 @@ header {
     left: 0px;
     right: 0px;
     text-align: center;
-    background-color: rgb(26, 21, 18);
+    background-color: var(--dark-header);
     height: 100vh;
-
 }
+
 @media (min-width: 768px) {
     .header-right {
         display: flex;
@@ -109,8 +108,8 @@ header {
     height: 2px;
     background-color: var(--white);
     margin-bottom: 5px;
-    
 }
+
 .close-menu {
     display: none;
 }
@@ -214,6 +213,7 @@ header {
 	letter-spacing: normal;
 	color: var(--orange);
 }
+
 .white-p {
 	font-family: 'Rubik', sans-serif;
 	font-size: 18px;
@@ -223,6 +223,7 @@ header {
 	letter-spacing: normal;
 	color:var(--white);
 }
+
 .grey-p {
     font-family: 'Rubik', sans-serif;
 	font-size: 16px;
@@ -257,8 +258,7 @@ body {
 @media (min-width: 768px) {
     .boutique-wines {
         padding: 200px 20px 200px 44%;
-    }
-    
+    }   
 }
 
 .boutique-wines h1 {
@@ -271,11 +271,11 @@ body {
     font-style: normal;
     letter-spacing: 0;
 }
+
 @media (min-width: 768px) {
     .boutique-wines h1 {
         font-size: 84px;
-    }
-    
+    } 
 }
 
 .button-wrapper{
@@ -295,6 +295,7 @@ body {
     transition: all ease 0.7s;
     font-weight: bold;
 }
+
 @media (min-width: 768px) {
     .default-button {
         padding: 18px 26px;
@@ -306,23 +307,23 @@ body {
     background-color:var(--orange);
     color: var(--white);
     border: 0.1em solid var(--orange);
-  }
+}
 
-  .shop-now:hover {
+.shop-now:hover {
     background-color:var(--orange-dark);
     border-color:var(--orange-dark) ;
   }
 
-  .learn-more {
+.learn-more {
     background-color: transparent;
     color: var(--white);
     border: 0.1em solid var(--white);
-  }
+}
 
-  .learn-more:hover {
+.learn-more:hover {
     background-color: var(--white);
     color: var(--black);
-  }
+}
 
 .more-arrow {
     display: flex;
@@ -398,11 +399,11 @@ body {
     flex-wrap: wrap;
 }
 
-
 .feature-item {
     width: 100%;
     padding: 10px 50px;
 }
+
 @media (min-width:768px) {
     .feature-item {
         width: 50%;
@@ -511,8 +512,8 @@ body {
 .orange-line {
     padding: 15px  0;
 }
+
 .story-wine {
-    
     text-align: left;
     overflow-wrap:break-word;
     margin: -50px -15px 0;
@@ -627,23 +628,54 @@ span.line {
     }
 }
 
+.history {
+    padding: 100px 0;
+    display: block;
+}
+.history-block {
+    margin: 0;
+    padding: 0 24px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+.back {
+    background-image: url(../image/bootle-glass.png);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;  
+}
+.play-video {
+    padding: 0 24px; 
+}
+
 .vino-veritas-h2 {
     font-size: 58px;
     font-family:'Prata', sans-serif;
     text-align: left ; 
     color: var(--white);
+    margin: 0;
+    text-transform: none;
+    vertical-align :baseline;
 }
+
 .p-orang-style {
     font-size: 14px;
     text-align: left;
-    margin-top:40px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    
 }
+
 .loza-img-2 {
     height: 32px;
     font-size: 16px;
     object-fit: contain;
     text-align: left;
 }
+
 .p-history {
     overflow-wrap: break-word;
     font-family: Rubik,sans-serif;
@@ -653,30 +685,40 @@ span.line {
 .button-style {
     font-weight: bold;
 }
+
 .history {
     margin: 0;
     padding: 20px;
     background-image: url(../image/bootle-glass.png);
     background-size: cover;
     background-attachment: fixed;
-    min-height: 600px;
-    
+    min-height: 600px; 
 }
+
 .img-button {
     height:50px ;
-    font-weight :400;
-    font-size :16px;
+    font-weight:400;
+    font-size:16px;
     box-sizing :border-box;
-    color : var(--orange)
-    
+    color:var(--orange);  
 }
+
 @media(min-wigth:768px) {
     .p-history{
         font-stretch: normal;
-    }
-    .img-button{
+        padding: 165px 0;
         display: flex;
     }
+    .history-block{
+        padding: 20px 10px 10px 500px ;
+        text-align: center;
+        
+    }
+    .play-video{
+        
+        text-align: right;
+    }  
+
 }
 /*end mari code*/
 
@@ -695,7 +737,6 @@ span.line {
 .button.default-button {
     cursor: pointer;
 }
-
 
 .modal-age-wrapper {
     position: fixed;
@@ -723,7 +764,6 @@ span.line {
         padding: 80px 20px;
     }
 }
-
 /* End block Lyuba  */
 
 /* Start block footer Lyuba  */
