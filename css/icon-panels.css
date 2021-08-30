@@ -3,10 +3,6 @@
 	padding: 50px 0px 15px 0px;
 	margin-top: 10px;
 	margin-bottom: 60px;
-	
-}
-.icon-panel > svg {
-    color : rgb(200, 105, 58);
 }
 
 .icon-panel-title {
@@ -14,7 +10,7 @@
 	font-size: 22px;
 	font-weight: 400;
 	line-height: 33px;
-	color: #fff;
+	color: var(--white);
 }
 .icon-panel .orange-divider {
 	width: 10%;
@@ -25,14 +21,15 @@
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25.6px;
-	color: #898c8a;
+	color: var(--grey);
 }
 .circle-shipping-icon, .circle-payment-icon, .circle-eco-icon, .circle-discount-system-icon {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border: 2px solid none;
   border-radius: 50%;
-  background: #898c8a;
+  background: var(--black);
+  color: var(--orange);
 }
  
  @media (min-width: 600px) {
