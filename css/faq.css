@@ -9,7 +9,7 @@ section .faq-question {
 	font-weight: 400;
 	text-transform: none;
 	letter-spacing: normal;
-	color: #fff;
+	color: var(--white);
 	text-align: left;
 	padding: 5px 10px 5px 10px;
 	margin: 10px;
@@ -30,12 +30,12 @@ section .faq-question {
 	width: 100%;
 	position: relative;
 	border-bottom: 1px solid;
-	border-bottom-color: #898c8a;
+	border-bottom-color: var(--gray-bottom);
 }
 
 .accordion-item-title {
 	padding: 10px;
-	color: #fff;
+	color: var(--white);
 	cursor: pointer;
 	position: relative;
 }
@@ -51,8 +51,8 @@ section .faq-question {
 
 .accordion-item-content {
 	position: relative;
-	background-color: #261E1C;
-	color: #898c8a;
+	background-color:  var(--brown-accordion-content);
+	color: var(--grey);
 	height: 0;
 	overflow: hidden;
 	transition: .5s ease-in-out;
@@ -70,7 +70,6 @@ section .faq-question {
 /* Image */
 section .red-wine-bottle {
 	min-height: 400px;
-	/* margin-bottom: 30px;	 */
 }
 section .red-wine-bottle img {
 	width: 100%;
