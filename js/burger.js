@@ -1,4 +1,4 @@
-(function(){
+
 const openMobileMenuButton = document.querySelector('.open-mobile-menu-js');
 const closeMobileMenuButton = document.querySelector('.close-mobile-menu-js');
 const mobileMenu = document.querySelector('.header-right');
@@ -16,5 +16,4 @@ function hideMobileMenu(){
     openMobileMenuButton.style.display = 'block';
     closeMobileMenuButton.style.display = 'none';
     mobileMenu.style.display = 'none';
- }
-})();
+}
