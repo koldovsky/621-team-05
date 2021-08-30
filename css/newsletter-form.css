@@ -1,12 +1,12 @@
 .newsletter-wrapper {
 	background-color: var(--dark);
+	margin-bottom: 0px;
 }
 
 .newsletter-wrapper .container {
 	display: block;
 	margin: 0px auto;
 	margin-top: 50px;
-	margin-bottom: 0px;
 	padding: 20px 20px 55px 20px;
 }
   
