@@ -32,7 +32,7 @@
 	transition: .3s;	
 }
 
-.circle-shipping-icon svg, .circle-payment-icon svg, .circle-eco-icon svg, .circle-discount-system-icon svg {
+.circle-shipping-icon img, .circle-payment-icon img, .circle-eco-icon img, .circle-discount-system-icon img {
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -43,7 +43,7 @@
 	color: var(--orange);
 }
 
-.circle-shipping-icon svg:hover, .circle-payment-icon svg:hover, .circle-eco-icon svg:hover, .circle-discount-system-icon svg:hover {
+.circle-shipping-icon img:hover, .circle-payment-icon img:hover, .circle-eco-icon img:hover, .circle-discount-system-icon img:hover {
 	transform: translate(-50%, -50%) scale(2.3);
 }
  
