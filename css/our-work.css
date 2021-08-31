@@ -575,7 +575,9 @@ body {
     overflow-wrap:break-word;
     letter-spacing:normal;  
 }
-
+.trad{
+    margin: 30px 25px;
+}
 @media(min-width: 768px) {
     .tradition-block{
     padding: 10px 100px 0 30px;   
@@ -598,7 +600,9 @@ body {
     text-align: left;
     }
 }
-
+.orange-time{
+    margin-bottom: 0;
+}
 span.line {
     color: var(--orange);
 } 
@@ -610,6 +614,7 @@ span.line {
     font-family: 'Prata', serif;
     text-transform: none;
     text-align: left;
+    margin-top: 0;
 }
 
 .style-block-h4 {
@@ -727,6 +732,7 @@ span.line {
     overflow-wrap: break-word;
     font-family: Rubik,sans-serif;
     word-wrap: break-word;
+
 }
 
 .button-style {
@@ -749,12 +755,16 @@ span.line {
     box-sizing :border-box;
     color:var(--orange);  
 }
-
+.button{
+    font-weight: bolder;
+}
 @media(min-wigth:768px) {
     .p-history{
         font-stretch: normal;
         padding: 165px 0;
         display: flex;
+        font-size: 16px;
+        text-transform: none;
     }
     .history-block{
         padding: 20px 10px 10px 500px ;
