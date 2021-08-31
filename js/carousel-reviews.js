@@ -26,10 +26,10 @@
     }
     showCurrentSlide();
   
-    document.querySelector('.carousel-reviews .previous-slide')
+    document.querySelector('.carousel-reviews .arrow-previous-slide')
     .addEventListener('click', previousSlide);
   
-      document.querySelector('.carousel-reviews .next-slide')
+      document.querySelector('.carousel-reviews .arrow-next-slide')
     .addEventListener('click', nextSlide);
   
   })();

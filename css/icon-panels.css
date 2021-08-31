@@ -1,6 +1,6 @@
 
 .icon-panel {
-	padding: 50px 0px 15px 0px;
+	padding: 50px 20px 15px 15px;
 	margin-top: 10px;
 	margin-bottom: 60px;
 }
@@ -62,7 +62,7 @@
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 30px;
-	padding: 10px 50px 10px 50px;
+	padding: 10px 20px 10px 20px;
 	margin-bottom: 50px;
 	}
 }
