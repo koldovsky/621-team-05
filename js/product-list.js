@@ -68,7 +68,7 @@
                     <p><img class="picture-our-wine-bootle" src="${product.imgUrl}" alt="${product.name}"></p>
                 </div>
                     <div class="add-to-cart">
-                    <a href="#pinot-noir.html" class="buttom">${product.name}</a>
+                    <a href="#pinot-noir.html" class="buttom-our-wine">${product.name}</a>
                     <p class="price">${product.price}</p>
                     <a href="#Add-to-cart" class="buttom-add-to-cart">${product.cart}</a>
                     </div>

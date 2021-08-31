@@ -27,13 +27,15 @@
 
 /* Кнопки вперед і назад */
 
-.testimonials .previous-slide {
-    color: var(--orange);
+.testimonials .arrow-previous-slide, .testimonials .arrow-next-slide {
+    display: inline-flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
-.testimonials .next-slide {
 
-}
     
 
 
