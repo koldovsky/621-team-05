@@ -5,8 +5,7 @@
 }
 .picture-our-wine-bootle {
   display: block;
-  margin: 0 auto;
-  padding: 0px 15px;
+  padding: 0px 5px 0px 5px;
  width: 300px;
  min-height: 375px;
 }
@@ -23,8 +22,8 @@
   text-align: center;
 }
  .buttom-add-to-cart {
-  padding:  10px 30px;
-  margin: 0px 90px;
+  padding:  10px 25px;
+  margin: 0px 80px;
   border: 0px solid white;
   border-radius: 2px;
   background-color:#c8693a;
@@ -37,16 +36,21 @@
 }
 .carousel-product-list .previous-slide {
   transform: translate(30px, -70px);
-  background-color: rgb(97, 75, 75);
+  background-color:  rgb(202, 196, 196);
+    background-color: unset;
+  border: none;
 }
 .carousel-product-list .next-slide {
   transform: translate(-30px, -70px);
-  background-color: rgb(97, 75, 75);
+  background-color: rgb(202, 196, 196);
+    background-color: unset;
+  border: none;
 
 }
 .carousel-product-list .s-carousel-arrow-right {
   transform: translate(0px, 0px);
 width: 40px;
+
 }
 .carousel-product-list .s-carousel-arrow-left {
 /* transform: rotate(180deg); */
@@ -74,16 +78,16 @@ width: 40px;
   font-size: 15px;
  }
  .carousel-product-list .next-slide {
-  transform: translate(-350px, -80px);
+  transform: translate(-270px, -85px);
   background-color: unset;
-  width: 30px;
   border: none;
   cursor: pointer;
+  
 }
 .carousel-product-list .previous-slide {
-  transform: translate(340px, -80px);
+  transform: translate(270px, -100px);
   background-color: unset;
-  width: 30px;
+  font-size: 100px;
   border: none;
   cursor: pointer;
 }

@@ -12,7 +12,7 @@
    --grey:#898082;
    --dark-footer:#130F0E;
    --dark-header:#1a1512;
-   --dark:#0f0c0b;
+   --dark:#1b1613;
 }
 
 * {
@@ -476,14 +476,38 @@ body {
     left: 0;
     align-items: center;
     max-width: 100%;
-    
+    ;
 }
-@media(min-width: 600px) {
+.carousel-wine{
+    height: 325px;
+    width: 325px;
+
+}
+.carousel{
+    margin: 30px 0 0 ;
+    padding: 0 15px;
+}
+@media(min-width: 768px) {
 
     .botels-of-wine{
         display: flex;
+        padding: 110px 0;
+    }
+    .carousel-wine{
+        height: 270px;
+        width: 270px;
+
     }
 }
+
+.buttom-add-cart {
+    padding:  10px 30px;
+    margin: 0px 50px;
+    border: 0px solid white;
+    border-radius: 2px;
+    background-color:#c8693a;
+    font-size: 15px;
+   }
 .info-block {
     text-align: center;
     overflow-wrap:break-word;
@@ -632,28 +656,46 @@ span.line {
 }
 
 .history .container {                
-       position: relative;
+       position: absolute;
+}
+
+@media (min-width:768px) {
+.history .container {                
+    position: relative;
+    }
 }
 
 .history-block {
-    width: 33.33%;
-    margin: 0;
-    padding: 0 24px;
-    border: 0;
+    width: 100%; 
+}
+
+@media (min-width:768px) {
+    .history-block {
+        width: 33.33%;
+        margin: 0;
+        padding: 0 24px;
+        border: 0;
+    }
+}
+
+.play-video {
+    padding-top: 20px;
+}
+
+@media (min-width:768px) {
+    .play-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
 }
 
 .back {
     background-image: url(../image/bootle-glass.png);
     background-size: cover;
     background-attachment: fixed;
-    min-height: 600px;  
-}
-.play-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+    /* min-height: 600px;   */
 }
 
 .vino-veritas-h2 {
@@ -698,7 +740,6 @@ span.line {
     background-size: cover;
     background-attachment: fixed;
     min-height: 600px; 
-
 }
 
 .img-button {
@@ -709,20 +750,20 @@ span.line {
     color:var(--orange);  
 }
 
-@media (min-wigth: 768px) {
-    .history{
-        /*font-stretch: normal;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-gap: 10px;*/
+@media(min-wigth:768px) {
+    .p-history{
+        font-stretch: normal;
+        padding: 165px 0;
         display: flex;
-        justify-content: space-between;
     }
     .history-block{
+        padding: 20px 10px 10px 500px ;
         text-align: center;
+        
     }
     .play-video{
-        align-items: center;
+        
+        text-align: right;
     }  
 
 }
@@ -791,6 +832,8 @@ footer {
     font-size: 22px;
     color: var(--white);
     font-weight: 400;
+    margin-top: 0;
+    padding: 5px;
 }
 
 footer .orange-divider {
@@ -824,7 +867,8 @@ footer .orange-divider {
  @media (min-width:768px) {
     .footer-row {
         display: flex;
-        flex-wrap: wrap;      
+        flex-wrap: wrap;  
+        margin: 0 -12px;    
      }
  }
 
